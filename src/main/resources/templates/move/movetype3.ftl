@@ -25,7 +25,7 @@
                     </p>
                 </div>
                 <div class="col-md-6 animated fadeIn">
-                    <img class="img-fluid" src="img/header.jpg" alt="">
+                    <img class="img-fluid" src="img/movetype3_l.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -48,7 +48,7 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="">
                             <div class="rounded p-2">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-apartment.png" alt="Icon">
+                                    <img class="img-fluid" src="img/icon-move.png" alt="Icon">
                                 </div>
                                 <h6>이사</h6>
                                 <span style="text-align: left;font-size: 13px;">
@@ -61,13 +61,13 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="">
                             <div class="rounded p-2">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-villa.png" alt="Icon">
+                                    <img class="img-fluid" src="img/icon-store.png" alt="Icon">
                                 </div>
                                 <h6>보관</h6>
-                                <span style="text-align: left;font-size: 13px;">
-                                    <p style="margin-bottom: 0px;"><i class="fa fa-check text-primary me-3"></i>전용 컨테이너를 통하여 안전하게 보관</p>
-                                    <p style="margin-bottom: 0px;"><i class="fa fa-check text-primary me-3"></i>장기 보관을 위한 전용 포장재 사용</p>
-                                    <p style="margin-bottom: 0px;"><i class="fa fa-check text-primary me-3"></i>물품 특성에 따른 맞춤 포장</p>
+                                <span style="text-align: left;font-size: 16px;">
+                                    <p style="margin-bottom: 0px;"><i class="fa fa-check text-dark me-3"></i>전용 컨테이너를 통하여 안전하게 보관</p>
+                                    <p style="margin-bottom: 0px;"><i class="fa fa-check text-dark me-3"></i>장기 보관을 위한 전용 포장재 사용</p>
+                                    <p style="margin-bottom: 0px;"><i class="fa fa-check text-dark me-3"></i>물품 특성에 따른 맞춤 포장</p>
                                 </span>
                             </div>
                         </a>
@@ -76,12 +76,12 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="">
                             <div class="rounded p-2">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-house.png" alt="Icon">
+                                    <img class="img-fluid" src="img/icon-security.png" alt="Icon">
                                 </div>
                                 <h6>보안</h6>
-                                <span style="text-align: left;font-size: 13px;">
-                                    <p style="margin-bottom: 0px;"><i class="fa fa-check text-primary me-3"></i>CCTV,직원상주를 통한 안전보관/보안 철저</p>
-                                    <p style="margin-bottom: 0px;"><i class="fa fa-check text-primary me-3"></i>철저한 입출고 관리로 도난방지</p>
+                                <span style="text-align: left;font-size: 16px;">
+                                    <p style="margin-bottom: 0px;"><i class="fa fa-check text-dark me-3"></i>CCTV,직원상주를 통한 안전보관/보안 철저</p>
+                                    <p style="margin-bottom: 0px;"><i class="fa fa-check text-dark me-3"></i>철저한 입출고 관리로 도난방지</p>
                                 </span>
                             </div>
                         </a>
@@ -90,11 +90,11 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="">
                             <div class="rounded p-2">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-housing.png" alt="Icon">
+                                    <img class="img-fluid" src="img/icon-vouch.png" alt="Icon">
                                 </div>
                                 <h6>보장</h6>
-                                <span style="text-align: left;font-size: 13px;">
-                                    <p style="margin-bottom: 0px;"><i class="fa fa-check text-primary me-3"></i>적재물 배상책임보험으로 안전한 이사 보장</p>
+                                <span style="text-align: left;font-size: 16px;">
+                                    <p style="margin-bottom: 0px;"><i class="fa fa-check text-dark me-3"></i>적재물 배상책임보험으로 안전한 이사 보장</p>
                                 </span>
                             </div>
                         </a>

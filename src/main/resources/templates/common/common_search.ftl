@@ -7,31 +7,31 @@
                 <div class="row g-2">
                     <div class="col-md-4">
                         <label for="orderSvc" class="text-white"><i class="fa fa-check"></i>서비스</label>
-                        <select class="form-select border-0 py-3" id="orderSvc">
-                            <option selected>청소+이사</option>
-                            <option value="1">가정이사</option>
-                            <option value="2">원룸이사</option>
-                            <option value="3">보관이사</option>
-                            <option value="3">기업이사</option>
-                            <option value="3">입주청소</option>
-                            <option value="3">이사청소</option>
-                            <option value="3">거주청소</option>
-                            <option value="3">부분청소</option>
+                        <select class="form-select border-0 py-2" id="eazyOrderSvc">
+                            <option value="청소+이사" selected>청소+이사</option>
+                            <option value="가정이사">가정이사</option>
+                            <option value="원룸이사">원룸이사</option>
+                            <option value="보관이사">보관이사</option>
+                            <option value="기업이사">기업이사</option>
+                            <option value="입주청소">입주청소</option>
+                            <option value="이사청소">이사청소</option>
+                            <option value="거주청소">거주청소</option>
+                            <option value="부분청소">부분청소</option>
                         </select>
                     </div>
                     <div class="col-md-4">
-                        <label for="orderName" class="text-white"><i class="fas fa-edit"></i>이름</label>
-                        <input type="text" id="orderName" class="form-control border-0 py-3" placeholder="김한방">
+                        <label for="eazyOrderName" class="text-white"><i class="fas fa-edit"></i>이름</label>
+                        <input type="text" id="eazyOrderName" class="form-control border-0 py-2" placeholder="김한방">
                     </div>
                     <div class="col-md-4">
-                        <label for="orderPhone" class="text-white"><i class="fas fa-edit"></i>전화번호</label>
-                        <input type="text" id="orderPhone" class="form-control border-0 py-3" placeholder="000-0000-0000">
+                        <label for="eazyOrderPhone" class="text-white"><i class="fas fa-edit"></i>전화번호</label>
+                        <input type="text" id="eazyOrderPhone" class="form-control border-0 py-2" placeholder="000-0000-0000">
                     </div>
                 </div>
             </div>
             <div class="col-md-2">
                 <label for="orderBtn"></label>
-                <a href="tel:0000-0000"ㅁ class="btn btn-dark border-0 w-100 py-3" id="orderBtn"><i class="fa fa-phone-alt me-3"></i> 상담요청하기</a>
+                <a href="tel:0000-0000" class="btn btn-dark border-0 w-100 py-2" id="eazyOrderBtn"><i class="fa fa-phone-alt me-3"></i> 상담요청하기</a>
             </div>
         </div>
     </div>

@@ -216,7 +216,7 @@
     justify-content: center;
     background: #FFFFFF !important;
     border-radius: 50px;
-    border: 1px dashed var(--primary) !important;
+    border: 1px solid var(--primary) !important;
 }
 
 
@@ -242,7 +242,7 @@
 /*** Category ***/
 .cat-item div {
     background: #FFFFFF;
-    border: 1px dashed rgba(0, 185, 142, .3);
+    border: 1px solid rgba(0, 185, 142, .3);
     transition: .5s;
 }
 
@@ -437,4 +437,22 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+.alCenter{text-align: center;}
+.alRight{text-align: right;}
+.alLeft{text-align: left;}
+
+td.details-control {
+    background: url('../img/details_open.png') no-repeat center center;
+    background-size: 20px;
+    cursor: pointer;
+}
+tr.details td.details-control {
+    background: url('../img/details_close.png') no-repeat center center;
+    background-size: 20px;
+}
+
+.dp-absolute{
+
 }

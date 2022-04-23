@@ -25,7 +25,7 @@
                     </p>
                 </div>
                 <div class="col-md-6 animated fadeIn">
-                    <img class="img-fluid" src="img/header.jpg" alt="">
+                    <img class="img-fluid" src="img/cleantype4_l.png" alt="">
                 </div>
             </div>
         </div>

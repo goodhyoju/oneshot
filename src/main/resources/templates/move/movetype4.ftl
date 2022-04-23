@@ -25,7 +25,7 @@
                     </p>
                 </div>
                 <div class="col-md-6 animated fadeIn">
-                    <img class="img-fluid" src="img/header.jpg" alt="">
+                    <img class="img-fluid" src="img/movetype4_l.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -48,7 +48,7 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="">
                             <div class="rounded p-2">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-apartment.png" alt="Icon">
+                                    <img class="img-fluid" src="img/icon-plan.png" alt="Icon">
                                 </div>
                                 <h6>이사 계획 수립</h6>
                                 <span style="text-align: left;font-size: 13px;">
@@ -64,7 +64,7 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="">
                             <div class="rounded p-2">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-villa.png" alt="Icon">
+                                    <img class="img-fluid" src="img/icon-spackaging.png" alt="Icon">
                                 </div>
                                 <h6>특수포장</h6>
                                 <span style="text-align: left;font-size: 13px;">
@@ -80,7 +80,7 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="">
                             <div class="rounded p-2">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-house.png" alt="Icon">
+                                    <img class="img-fluid" src="img/icon-move.png" alt="Icon">
                                 </div>
                                 <h6>운송</h6>
                                 <span style="text-align: left;font-size: 13px;">
@@ -94,7 +94,7 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="">
                             <div class="rounded p-2">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-housing.png" alt="Icon">
+                                    <img class="img-fluid" src="img/icon-clean.png" alt="Icon">
                                 </div>
                                 <h6>배치 및 정리</h6>
                                 <span style="text-align: left;font-size: 13px;">

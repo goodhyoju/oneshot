@@ -26,7 +26,7 @@
                     </p>
                 </div>
                 <div class="col-md-6 animated fadeIn">
-                    <img class="img-fluid" src="img/header.jpg" alt="">
+                    <img class="img-fluid" src="img/cleantype1_l.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -53,9 +53,9 @@
                         <div class="row gy-4">
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="bg-light rounded p-3">
-                                    <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px dashed rgba(0, 185, 142, .3);font-size: 15px;">
+                                    <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
-                                            <i class="fa fa-map-marker-alt text-primary"></i>
+                                            <i class="fa fa-arrow-right text-dark"></i>
                                         </div>
                                         <span>보양지 제거작업 / 싱크대 / 바닥 / 유리창 / 샷시등</span>
                                     </div>
@@ -63,9 +63,9 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="bg-light rounded p-3">
-                                    <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px dashed rgba(0, 185, 142, .3);font-size: 15px;">
+                                    <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
-                                            <i class="fa fa-envelope-open text-primary"></i>
+                                            <i class="fa fa-arrow-right text-dark"></i>
                                         </div>
                                         <span>싱크대 전체청소(후드/가스렌지 기름때 제거)</span>
                                     </div>
@@ -73,9 +73,9 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="bg-light rounded p-3">
-                                    <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px dashed rgba(0, 185, 142, .3);font-size: 15px;">
+                                    <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
-                                            <i class="fa fa-phone-alt text-primary"></i>
+                                            <i class="fa fa-arrow-right text-dark"></i>
                                         </div>
                                         <span>화장실(천정/벽/세면대/변기)</span>
                                     </div>
@@ -83,9 +83,9 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
                                 <div class="bg-light rounded p-3">
-                                    <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px dashed rgba(0, 185, 142, .3);font-size: 15px;">
+                                    <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
-                                            <i class="fa fa-phone-alt text-primary"></i>
+                                            <i class="fa fa-arrow-right text-dark"></i>
                                         </div>
                                         <span>전체 창문창틀(위/아래/좌/우) 찌꺼기 먼지 제거</span>
                                     </div>
@@ -93,9 +93,9 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.9s">
                                 <div class="bg-light rounded p-3">
-                                    <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px dashed rgba(0, 185, 142, .3);font-size: 15px;">
+                                    <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
-                                            <i class="fa fa-phone-alt text-primary"></i>
+                                            <i class="fa fa-arrow-right text-dark"></i>
                                         </div>
                                         <span>외창, 이중창 뒷면제외</span>
                                     </div>
@@ -103,9 +103,9 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.12s">
                                 <div class="bg-light rounded p-3">
-                                    <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px dashed rgba(0, 185, 142, .3);font-size: 15px;">
+                                    <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
-                                            <i class="fa fa-phone-alt text-primary"></i>
+                                            <i class="fa fa-arrow-right text-dark"></i>
                                         </div>
                                         <span>전체 바닥 청소</span>
                                     </div>
@@ -113,9 +113,9 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.15s">
                                 <div class="bg-light rounded p-3">
-                                    <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px dashed rgba(0, 185, 142, .3);font-size: 15px;">
+                                    <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
-                                            <i class="fa fa-phone-alt text-primary"></i>
+                                            <i class="fa fa-arrow-right text-dark"></i>
                                         </div>
                                         <span>전체 하수구 커버 청소</span>
                                     </div>
@@ -123,9 +123,9 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.18s">
                                 <div class="bg-light rounded p-3">
-                                    <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px dashed rgba(0, 185, 142, .3);font-size: 15px;">
+                                    <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
-                                            <i class="fa fa-phone-alt text-primary"></i>
+                                            <i class="fa fa-arrow-right text-dark"></i>
                                         </div>
                                         <span>베란다 청소</span>
                                     </div>
@@ -133,9 +133,9 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.21s">
                                 <div class="bg-light rounded p-3">
-                                    <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px dashed rgba(0, 185, 142, .3);font-size: 15px;">
+                                    <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
-                                            <i class="fa fa-phone-alt text-primary"></i>
+                                            <i class="fa fa-arrow-right text-dark"></i>
                                         </div>
                                         <span>각종 수납장 분리 가능할시 분리 청소</span>
                                     </div>
@@ -143,9 +143,9 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.24s">
                                 <div class="bg-light rounded p-3">
-                                    <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px dashed rgba(0, 185, 142, .3);font-size: 15px;">
+                                    <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
-                                            <i class="fa fa-phone-alt text-primary"></i>
+                                            <i class="fa fa-arrow-right text-dark"></i>
                                         </div>
                                         <span>전체 전등 청소(파손 위험시 외부만 청소)</span>
                                     </div>
@@ -153,9 +153,9 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.27s">
                                 <div class="bg-light rounded p-3">
-                                    <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px dashed rgba(0, 185, 142, .3);font-size: 15px;">
+                                    <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
-                                            <i class="fa fa-phone-alt text-primary"></i>
+                                            <i class="fa fa-arrow-right text-dark"></i>
                                         </div>
                                         <span>전체 하수구 변기 싱크대 청소후 스팀 살균 처리</span>
                                     </div>
@@ -174,7 +174,7 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-3 wow fadeIn" data-wow-delay="0.1s">
                         <div class="about-img position-relative overflow-hidden p-5 pe-0">
-                            <img class="img-fluid w-100" src="img/about.jpg">
+                            <img class="img-fluid w-100" src="img/add_service.jpg">
                         </div>
                     </div>
                     <div class="col-lg-9 wow fadeIn" data-wow-delay="0.5s">
@@ -192,7 +192,7 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-3 wow fadeIn" data-wow-delay="0.1s">
                         <div class="about-img position-relative overflow-hidden p-5 pe-0">
-                            <img class="img-fluid w-100" src="img/about.jpg">
+                            <img class="img-fluid w-100" src="img/add_pay.jpg">
                         </div>
                     </div>
                     <div class="col-lg-9 wow fadeIn" data-wow-delay="0.5s">

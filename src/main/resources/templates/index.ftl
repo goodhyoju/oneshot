@@ -25,10 +25,10 @@
                 <div class="col-md-5 animated fadeIn">
                     <div class="owl-carousel header-carousel">
                         <div class="owl-carousel-item">
-                            <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                            <img class="img-fluid" src="img/index-1.jpg" alt="">
                         </div>
                         <div class="owl-carousel-item">
-                            <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                            <img class="img-fluid" src="img/index-2.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -44,12 +44,12 @@
         <div class="container-xxl py-5" style="margin-top: 50px;">
             <div class="container">
                 <div class="row g-5 align-items-center">
-                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                         <div class="about-img position-relative overflow-hidden p-5 pe-0">
                             <img class="img-fluid w-100" src="img/about.jpg">
                         </div>
                     </div>
-                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.8s">
                         <h2 class="mb-4">고객만족도가 우수한 기업 <span class="text-primary">이사청소 한방</span></h2>
                         <p class="mb-4">이사청소한방은 직영마스터팀(출장기사) 제도를 운영하여 고객님께서 안전하고 편한 마음으로
                             이사와 청소에 관련한 모든 서비스를 이용하실 수 있도록 최선을 다하고 있는 이사와 청소 전문
@@ -84,12 +84,12 @@
                             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-1.jpg" alt=""></a>
+                                        <a href="movetype1"><img class="img-fluid" src="img/movetype1_s.jpg" alt=""></a>
                                         <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">이사</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">가정이사</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <a class="d-block h5 mb-2" href="">전문적인 포장이사</a>
+                                        <a class="d-block h5 mb-2" href="movetype1">전문적인 포장이사</a>
                                         <p><i class="fa fa-map-marker-alt text-primary me-2"></i>전국 가능(일부지역 제외)</p>
                                     </div>
                                     <div class="d-flex border-top">
@@ -104,12 +104,12 @@
                             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-2.jpg" alt=""></a>
+                                        <a href="movetype2"><img class="img-fluid" src="img/movetype2_s.jpg" alt=""></a>
                                         <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">이사</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">원룸이사</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <a class="d-block h5 mb-2" href="">소규모 이사</a>
+                                        <a class="d-block h5 mb-2" href="movetype2">소규모 이사</a>
                                         <p><i class="fa fa-map-marker-alt text-primary me-2"></i>전국 가능(일부지역 제외)</p>
                                     </div>
                                     <div class="d-flex border-top">
@@ -123,12 +123,12 @@
                             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-3.jpg" alt=""></a>
+                                        <a href="movetype3"><img class="img-fluid" src="img/movetype3_s.jpg" alt=""></a>
                                         <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">이사</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">보관이사</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <a class="d-block h5 mb-2" href="">보관 서비스</a>
+                                        <a class="d-block h5 mb-2" href="movetype3">보관 서비스</a>
                                         <p><i class="fa fa-map-marker-alt text-primary me-2"></i>전국 가능(일부지역 제외)</p>
                                     </div>
                                     <div class="d-flex border-top">
@@ -142,12 +142,12 @@
                             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.8s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-4.jpg" alt=""></a>
+                                        <a href="movetype4"><img class="img-fluid" src="img/movetype4_s.jpg" alt=""></a>
                                         <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">이사</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">기업이사</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <a class="d-block h5 mb-2" href="">기업 맞춤형</a>
+                                        <a class="d-block h5 mb-2" href="movetype3">기업 맞춤형</a>
                                         <p><i class="fa fa-map-marker-alt text-primary me-2"></i>전국 가능(일부지역 제외)</p>
                                     </div>
                                     <div class="d-flex border-top">
@@ -161,12 +161,12 @@
                             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-5.jpg" alt=""></a>
+                                        <a href="cleantype1"><img class="img-fluid" src="img/cleantype1_s.jpg" alt=""></a>
                                         <div class="bg-warning rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">청소</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">입주청소</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <a class="d-block h5 mb-2" href="">고객중심의 청소</a>
+                                        <a class="d-block h5 mb-2" href="cleantype1">고객중심의 청소</a>
                                         <p><i class="fa fa-map-marker-alt text-primary me-2"></i>전국 가능(일부지역 제외)</p>
                                     </div>
                                 </div>
@@ -174,12 +174,12 @@
                             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-6.jpg" alt=""></a>
+                                        <a href="cleantype2"><img class="img-fluid" src="img/cleantype2_s.jpg" alt=""></a>
                                         <div class="bg-warning rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">청소</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">이사청소</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <a class="d-block h5 mb-2" href="">위생적인 청소</a>
+                                        <a class="d-block h5 mb-2" href="cleantype2">위생적인 청소</a>
                                         <p><i class="fa fa-map-marker-alt text-primary me-2"></i>전국 가능(일부지역 제외)</p>
                                     </div>
                                 </div>
@@ -187,12 +187,12 @@
                             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-6.jpg" alt=""></a>
+                                        <a href="cleantype3"><img class="img-fluid" src="img/cleantype3_s.jpg" alt=""></a>
                                         <div class="bg-warning rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">청소</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">거주청소</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <a class="d-block h5 mb-2" href="">소중한 우리집의 대청소</a>
+                                        <a class="d-block h5 mb-2" href="cleantype3">소중한 우리집의 대청소</a>
                                         <p><i class="fa fa-map-marker-alt text-primary me-2"></i>전국 가능(일부지역 제외)</p>
                                     </div>
                                 </div>
@@ -200,12 +200,12 @@
                             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.38s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-6.jpg" alt=""></a>
+                                        <a href="cleantype4"><img class="img-fluid" src="img/cleantype4_s.png" alt=""></a>
                                         <div class="bg-warning rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">청소</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">부분청소</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <a class="d-block h5 mb-2" href="">지정공간 청소</a>
+                                        <a class="d-block h5 mb-2" href="cleantype4">지정공간 청소</a>
                                         <p><i class="fa fa-map-marker-alt text-primary me-2"></i>전국 가능(일부지역 제외)</p>
                                     </div>
                                 </div>

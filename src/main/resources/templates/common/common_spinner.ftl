@@ -3,3 +3,5 @@
         <span class="sr-only">Loading...</span>
     </div>
 </div>
+<input type="hidden" id="myip" value="${myip}" />
+<input type="hidden" id="pagename" value="${page}" />
