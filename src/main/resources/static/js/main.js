@@ -56,12 +56,12 @@
     
 })(jQuery);
 
-var APIIP = "http://localhost:8081/";
+var APIIP = "http://49.50.174.83:8081/";
 $(document).ready(function() {
     var myip = $("#myip").val();
-    if(myip=='49.50.174.83'){
+    /*if(myip=='49.50.174.83'){
         APIIP = "http://49.50.174.83:8081/";
-    }
+    }*/
 
     $(".nav-link").removeClass('active');
     var getPageName = $("#pagename").val();
