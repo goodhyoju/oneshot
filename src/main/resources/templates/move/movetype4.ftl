@@ -114,5 +114,9 @@
     </div>
     <#include "/common/common_js.ftl">
 </body>
-
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#eazyOrderSvc").val('기업이사')
+    });
+</script>
 </html>

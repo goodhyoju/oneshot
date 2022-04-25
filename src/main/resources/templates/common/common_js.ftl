@@ -12,6 +12,8 @@
 <script src="js/main.js"></script>
 <!-- Datatable Javascript -->
 <script src="lib/DataTables/DataTables-1.11.5/js/jquery.dataTables.js"></script>
+<script src="lib/DataTables/DataTables-1.11.5/js/dataTables.responsive.min.js"></script>
+<script src="lib/DataTables/DataTables-1.11.5/js/dataTables.rowReorder.min.js"></script>
 <!-- start scorp Javascript -->
 <script src="lib/raty/jquery.raty.js"></script>
 <!-- full calendar Javascript -->
@@ -19,6 +21,5 @@
 <script src="lib/fullcalendar/locales/ko.js"></script>
 <!-- search address Javascript -->
 <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
-
 <!-- datetimepicker Javascript -->
 <script src="lib/datetimepicker/jquery.datetimepicker.full.min.js"></script>

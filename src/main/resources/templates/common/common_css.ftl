@@ -23,6 +23,9 @@
     <link href="css/style.css" rel="stylesheet">
     <!-- Datatable Stylesheet -->
     <link rel="stylesheet" type="text/css" href="lib/DataTables/DataTables-1.11.5/css/jquery.dataTables.css" />
+    <link rel="stylesheet" type="text/css" href="lib/DataTables/DataTables-1.11.5/css/responsive.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="lib/DataTables/DataTables-1.11.5/css/rowReorder.dataTables.min.css" />
+
     <!-- start scorp Stylesheet -->
     <link rel="stylesheet" type="text/css" href="lib/raty/jquery.raty.css" />
     <!-- full calendar Stylesheet -->

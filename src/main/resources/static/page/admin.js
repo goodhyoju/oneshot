@@ -56,18 +56,18 @@ $(document).ready(function() {
             {"aaData": "name", className: "alCenter" },
             {"aaData": "phone", className: "alCenter"  },
             {"aaData": "date", className: "alCenter"  },
-            {"aaData": "apt_addr", className: "alLeft"  },
-            {"aaData": "apt_name", className: "alLeft"  },
+            {"aaData": "addr", className: "alLeft"  },
             {"aaData": "apt_size", className: "alRight"  },
             {"aaData": "status", className: "alCenter" }
         ],
         "sAjaxSource" : APIIP+"oneshot/loadReservationList",
         "sServerMethod": "POST",
         "fnRowCallback": function( nRow, aData, iDisplayIndex ) {
+            console.log(aData);
             var getIdx = aData[0];
             var getTime = aData[1];
             var getDate = aData[5];
-            var getStatus = aData[9];
+            var getStatus = aData[8];
             var statusHtml;
             var stautsClass;
             if(getStatus==0){
@@ -78,7 +78,7 @@ $(document).ready(function() {
             }
             $("td:eq(1)", nRow).html(moment(getTime).format('YYYY-MM-DD hh:mm'));
             $("td:eq(5)", nRow).html(moment(getDate).format('YYYY-MM-DD hh:mm'));
-            $("td:eq(9)", nRow).html(statusHtml);
+            $("td:eq(8)", nRow).html(statusHtml);
             $(nRow).addClass(stautsClass);
         }
     });

@@ -122,4 +122,9 @@
     <#include "/common/common_js.ftl">
 </body>
 
+<script type="text/javascript">
+    $(document).ready(function() {
+       $("#eazyOrderSvc").val('가정이사')
+    });
+</script>
 </html>

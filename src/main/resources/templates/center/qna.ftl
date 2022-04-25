@@ -34,7 +34,7 @@
         <div class="container-fluid  mb-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 20px;padding: 25px;border-top: solid 2px #00d1b2;">
             <div class="container">
                 <div class="text-center mx-auto mb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 700px;">
-
+                    <button class="btn btn-outline-primary" id="addQnaBtn"><i class="fa fa-plus"></i> Q&A 입력</button>
                 </div>
                 <div class="row g-2">
                     <div class="col-md-12">
@@ -84,6 +84,7 @@
                                     <option value="기타문의">기타문의</option>
                                 </select>
                             </div>
+
                             <div class="col-md-12">
                                 <label for="qnaTitle"><i class="fas fa-edit"></i>제목</label>
                                 <input type="text" id="qnaTitle" class="form-control border-1 py-3">

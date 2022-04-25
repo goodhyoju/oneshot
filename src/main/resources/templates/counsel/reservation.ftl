@@ -37,17 +37,8 @@
                 <div class="row g-2">
                     <div class="col-md-12">
                         <div class="row g-2">
-
                             <div class="col-md-4">
-                                <label for="orderName" class="text-white"><i class="fas fa-edit"></i>이름</label>
-                                <input type="text" id="orderName" class="form-control border-0 py-2" placeholder="김한방">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="orderPhone" class="text-white"><i class="fas fa-edit"></i>전화번호</label>
-                                <input type="text" id="orderPhone" class="form-control border-0 py-2" placeholder="000-0000-0000">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="orderSvc" class="text-white"><i class="fa fa-check"></i>서비스</label>
+                                <label for="orderSvc" class="text-white"><i class="fa fa-check"></i> 서비스</label>
                                 <select class="form-select border-0 py-2" id="orderSvc">
                                     <option value="청소+이사" selected>청소+이사</option>
                                     <option value="가정이사">가정이사</option>
@@ -61,29 +52,45 @@
                                 </select>
                             </div>
                             <div class="col-md-4">
-                                <label for="orderAPTPassword1" class="text-white"><i class="fas fa-edit"></i>신청 비밀번호</label>
+                                <label for="orderName" class="text-white"><i class="fas fa-edit"></i> 이름</label>
+                                <input type="text" id="orderName" class="form-control border-0 py-2" placeholder="김한방">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="orderPhone" class="text-white"><i class="fas fa-edit"></i> 전화번호</label>
+                                <input type="text" id="orderPhone" class="form-control border-0 py-2" placeholder="000-0000-0000">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="orderAPTPassword1" class="text-white"><i class="fas fa-edit"></i> 신청 비밀번호</label>
                                 <input type="password" id="orderAPTPassword1" class="form-control border-0 py-2">
                             </div>
                             <div class="col-md-4">
-                                <label for="orderAPTPassword2" class="text-white"><i class="fas fa-edit"></i>신청 비밀번호 확인</label>
+                                <label for="orderAPTPassword2" class="text-white"><i class="fas fa-edit"></i> 신청 비밀번호 확인</label>
                                 <input type="password" id="orderAPTPassword2" class="form-control border-0 py-2">
                             </div>
                             <div class="col-md-4">
-                                <label for="orderDate" class="text-white"><i class="fas fa-edit"></i>신청일자</label>
+                                <label for="orderDate" class="text-white"><i class="fas fa-edit"></i> 신청일자</label>
                                 <input type="text" id="orderDate" class="form-control border-0 py-2" readonly>
                             </div>
-                            <div class="col-md-5">
-                                <label for="orderAPTAddr" class="text-white"><i class="fas fa-edit"></i>주소</label>
-                                <input type="text" id="orderAPTAddr" class="form-control border-0 py-2" readonly onclick="findAddr('orderAPTAddr')">
+                            <div class="col-md-4">
+                                <label for="orderHomeAddr" class="text-white"><i class="fas fa-edit"></i> 실거주지</label>
+                                <input type="text" id="orderHomeAddr" class="form-control border-0 py-2" readonly onclick="findAddr('orderHomeAddr')">
                             </div>
-                            <div class="col-md-5">
+                            <div class="col-md-4 moveAddr">
+                                <label for="orderStartAddr" class="text-white"><i class="fas fa-arrow-right"></i> 이사 출발지</label>
+                                <input type="text" id="orderStartAddr" class="form-control border-0 py-2" readonly onclick="findAddr('orderStartAddr')">
+                            </div>
+                            <div class="col-md-4 moveAddr">
+                                <label for="orderEndAddr" class="text-white"><i class="fas fa-arrow-left"></i> 이사 도착지</label>
+                                <input type="text" id="orderEndAddr" class="form-control border-0 py-2" readonly onclick="findAddr('orderEndAddr')">
+                            </div>
+                            <#--<div class="col-md-5">
                                 <label for="orderAPTName" class="text-white"><i class="fas fa-edit"></i>아파트명</label>
                                 <input type="text" id="orderAPTName" class="form-control border-0 py-2">
-                            </div>
+                            </div>-->
 
                             <div class="col-md-2">
-                                <label for="orderAPTSize" class="text-white"><i class="fas fa-edit"></i>아파트평형</label>
-                                <select id="orderAPTSize" class="form-control border-0 py-2">
+                                <label for="orderHomeSize" class="text-white"><i class="fas fa-edit"></i>등기평수</label>
+                                <select id="orderHomeSize" class="form-control border-0 py-2">
                                     <option value="25" selected>25평</option>
                                     <option value="10">10평</option>
                                     <option value="15">15평</option>
@@ -123,20 +130,19 @@
                                     <table class="table tab-content table-bordered table-hover">
                                         <tbody>
                                         <tr>
-                                            <th class="table-success" style="width: 12%;"><i class="fa fa-check"></i> 이름</th><td id="checkName" ></td>
-                                            <th class="table-success" style="width: 12%;"><i class="fa fa-check"></i> 전화번호</th><td id="checkPhone"></td>
+                                            <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 신청 서비스</th><td id="checkService"></td>
+                                            <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 이름</th><td id="checkName" ></td>
+                                            <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 전화번호</th><td id="checkPhone"></td>
                                         </tr>
                                         <tr>
-                                            <th class="table-success" style="width: 12%;"><i class="fa fa-check"></i> 아파트명</th><td id="checkAptName"></td>
-                                            <th class="table-success" style="width: 12%;"><i class="fa fa-check"></i> 아파트 주소</th><td id="checkAptAddr"></td>
+                                            <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 실거주지</th><td id="checkHomeAddr"></td>
+                                            <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 이사출발지</th><td id="checkStartAddr"></td>
+                                            <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 이사도착지</th><td id="checkEndAddr"></td>
                                         </tr>
                                         <tr>
-                                            <th class="table-success" style="width: 12%;"><i class="fa fa-check"></i> 아파트 평형</th><td id="checkAptsize"></td>
-                                            <th class="table-success" style="width: 12%;"><i class="fa fa-check"></i> 신청일자</th><td id="checkOrderDate"></td>
-                                        </tr>
-                                        <tr>
-                                            <th class="table-success" style="width: 12%;"><i class="fa fa-check"></i> 신청 서비스</th><td id="checkService"></td>
-                                            <th class="table-success" style="width: 12%;"><i class="fa fa-check"></i> 신청 비밀번호</th><td id="checkPassword"></td>
+                                            <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 아파트 평형</th><td id="checkHomesize"></td>
+                                            <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 신청일자</th><td id="checkOrderDate"></td>
+                                            <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 신청 비밀번호</th><td id="checkPassword"></td>
                                         </tr>
                                         </tbody>
                                     </table>

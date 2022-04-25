@@ -58,5 +58,9 @@
      </div>
     <#include "/common/common_js.ftl">
 </body>
-
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#eazyOrderSvc").val('부분청소')
+    });
+</script>
 </html>

@@ -61,20 +61,19 @@
                             <table class="table tab-content table-bordered table-hover">
                                 <tbody>
                                 <tr>
-                                    <th class="table-success" style="width: 12%;"><i class="fa fa-check"></i> 이름</th><td id="checkCName" ></td>
-                                    <th class="table-success" style="width: 12%;"><i class="fa fa-check"></i> 전화번호</th><td id="checkCPhone"></td>
+                                    <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 신청 서비스</th><td id="checkService"></td>
+                                    <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 이름</th><td id="checkNamed" ></td>
+                                    <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 전화번호</th><td id="checkPhone"></td>
                                 </tr>
                                 <tr>
-                                    <th class="table-success" style="width: 12%;"><i class="fa fa-check"></i> 아파트명</th><td id="checkCAptName"></td>
-                                    <th class="table-success" style="width: 12%;"><i class="fa fa-check"></i> 아파트 주소</th><td id="checkCAptAddr"></td>
+                                    <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 실거주지</th><td id="checkHomeAddr"></td>
+                                    <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 이사출발지</th><td id="checkStartAddr"></td>
+                                    <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 이사도착지</th><td id="checkEndAddr"></td>
                                 </tr>
                                 <tr>
-                                    <th class="table-success" style="width: 12%;"><i class="fa fa-check"></i> 아파트 평형</th><td id="checkCAptsize"></td>
-                                    <th class="table-success" style="width: 12%;"><i class="fa fa-check"></i> 신청일자</th><td id="checkCOrderDate"></td>
-                                </tr>
-                                <tr>
-                                    <th class="table-success" style="width: 12%;"><i class="fa fa-check"></i> 신청 서비스</th><td id="checkCService"></td>
-                                    <th class="table-success" style="width: 12%;"><i class="fa fa-check"></i> 신청 비밀번호</th><td id="checkCPassword"></td>
+                                    <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 아파트 평형</th><td id="checkHomesize"></td>
+                                    <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 신청일자</th><td id="checkOrderDate"></td>
+                                    <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 신청 비밀번호</th><td id="checkPassword"></td>
                                 </tr>
                                 </tbody>
                             </table>

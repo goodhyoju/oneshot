@@ -20,7 +20,6 @@ $(document).ready(function() {
             return: true
         },
         "async": false,
-        "dom": '<"toolbar">frtip',
         "language" : lang_kor,
         "processing": true,
         "bServerSide": true,
@@ -52,7 +51,6 @@ $(document).ready(function() {
             var getAnswer = aData[7];
             var getStatus = aData[8];
 
-            console.log(aData);
             if(getStatus=='0'){
                 getStatus = '<label class="bg-danger rounded text-white p-1">미답변</label>'
             }else{
@@ -64,7 +62,6 @@ $(document).ready(function() {
                                      '<a href="javascript:;" class="text-danger fw-bold mb-0 p-1" title="글 삭제" onclick="deleteQna('+getIdx+',\''+getTitle+'\')">X</a></div>');
         }
     });
-    $("div.toolbar").addClass('col-md-2').css('position','absolute').html('<button class="btn btn-sm btn-outline-primary" id="addQnaBtn"><i class="fa fa-plus"></i> Q&A 입력</button>');
 
     $("#addQnaBtn").click(function (){
         $("#qnaWriter").val(randName());

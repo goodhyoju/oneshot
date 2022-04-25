@@ -25,11 +25,21 @@
                 <div class="col-md-5 animated fadeIn">
                     <div class="owl-carousel header-carousel">
                         <div class="owl-carousel-item">
+                            <img class="img-fluid" src="img/index-5.jpg" alt="">
+                        </div>
+                        <div class="owl-carousel-item">
                             <img class="img-fluid" src="img/index-1.jpg" alt="">
                         </div>
                         <div class="owl-carousel-item">
                             <img class="img-fluid" src="img/index-2.jpg" alt="">
                         </div>
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid" src="img/index-3.jpg" alt="">
+                        </div>
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid" src="img/index-4.jpg" alt="">
+                        </div>
+
                     </div>
                 </div>
             </div>

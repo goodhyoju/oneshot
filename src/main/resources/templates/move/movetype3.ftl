@@ -108,5 +108,9 @@
     </div>
     <#include "/common/common_js.ftl">
 </body>
-
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#eazyOrderSvc").val('보관이사')
+    });
+</script>
 </html>

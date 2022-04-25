@@ -15,19 +15,22 @@ $(document).ready(function() {
                     dataType: 'json',
                     contentType: "application/json; UTF-8;",
                     success: function(data){
-                        console.log(data);
+
                         if(isEmpty(data)){
                             alert('등록된 예약이 없습니다.');
                         }else{
                             $.each( data, function ( item, val ) {
-                                $("#checkCName").html(val.name);
-                                $("#checkCPhone").html(val.phone);
-                                $("#checkCAptName").html(val.apt_name);
-                                $("#checkCAptAddr").html(val.apt_addr);
-                                $("#checkCAptsize").html(val.apt_size);
-                                $("#checkCOrderDate").html(val.aply_date);
-                                $("#checkCService").html(val.service);
-                                $("#checkCPassword").html(val.password);
+                                $("#checkService").html(val.service);
+                                $("#checkNamed").html(val.name);
+                                $("#checkPhone").html(val.phone);
+
+                                $("#checkHomeAddr").html(val.home_addr);
+                                $("#checkStartAddr").html(val.start_addr);
+                                $("#checkEndAddr").html(val.end_addr);
+
+                                $("#checkHomesize").html(val.home_size);
+                                $("#checkOrderDate").html(val.aply_date);
+                                $("#checkPassword").html(val.password);
                             });
                         }
                     },

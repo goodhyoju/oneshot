@@ -34,9 +34,11 @@
         <div class="container-fluid  mb-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 20px;padding: 25px;border-top: solid 2px #00d1b2;">
             <div class="container">
                 <div class="text-center mx-auto mb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 700px;">
+                    <button class="btn btn-sm btn-outline-primary" id="addNotisBtn"><i class="fa fa-plus"></i> 공지사항 입력</button>
                 </div>
                 <div class="row g-2">
                     <div class="col-md-12">
+
                         <!-- table start -->
                         <table id="notiTable" class="ui celled table hover" style="width:100%">
                             <thead>

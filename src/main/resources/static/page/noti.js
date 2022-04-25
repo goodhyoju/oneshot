@@ -17,7 +17,6 @@ $(document).ready(function() {
             return: true
         },
         "async": false,
-        "dom": '<"toolbar">frtip',
         "language" : lang_kor,
         "processing": true,
         "bServerSide": true,
@@ -30,7 +29,7 @@ $(document).ready(function() {
                 width: "10px"
             },
             {"aaData": "idx",width: "1px","visible": false},
-            {"aaData": "time",width: "150px", className: "alCenter"},
+            {"aaData": "time",width: "80px", className: "alCenter"},
             {"aaData": "type",width: "70px", className: "alCenter" },
             {"aaData": "title" },
             {"aaData": "comment","visible": false},
@@ -45,12 +44,11 @@ $(document).ready(function() {
             var getIdx = aData[1];
             var getTitle = aData[4];
 
-            $("td:eq(1)", nRow).html(moment(getTime).format('YYYY-MM-DD hh:mm'));
+            $("td:eq(1)", nRow).html(moment(getTime).format('YYYY-MM-DD'));
             $("td:eq(6)", nRow).html('<a href="javascript:;" class="text-danger fw-bold mb-0 p-1" title="글 삭제"  onclick="deleteNoits('+getIdx+',\''+getTitle+'\')">X</a>');
 
         }
     });
-    $("div.toolbar").addClass('col-md-2').css('position','absolute').html('<button class="btn btn-sm btn-outline-primary" id="addNotisBtn"><i class="fa fa-plus"></i> 공지사항 입력</button>');
 
     $("#addNotisBtn").click(function (){
         $('#addNotisModal').modal('show');
