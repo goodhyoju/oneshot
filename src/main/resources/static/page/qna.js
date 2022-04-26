@@ -3,7 +3,6 @@ var dt;
 $(document).ready(function() {
 
     function format ( d ) {
-        console.log(d);
         var html = '<span class=""><i class="fa fa-check text-primary me-3"></i>제목: '+d[4]+'</span><br>'+
                     '<span class=""><i class="fa fa-check text-primary me-3"></i>내용: '+d[5]+'</span>';
         if(d[7] !=null && d[7].length > 1){
@@ -23,9 +22,7 @@ $(document).ready(function() {
         "language" : lang_kor,
         "processing": true,
         "bServerSide": true,
-        rowReorder: {
-            selector: 'td:nth-child(2)'
-        },
+
         responsive: {
             details: {
                 renderer: function ( api, rowIdx, columns ) {

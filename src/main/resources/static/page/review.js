@@ -8,9 +8,6 @@ $(document).ready(function() {
         "language" : lang_kor,
         "processing": true,
         "bServerSide": true,
-        rowReorder: {
-            selector: 'td:nth-child(2)'
-        },
         responsive: {
             details: {
                 renderer: function ( api, rowIdx, columns ) {
