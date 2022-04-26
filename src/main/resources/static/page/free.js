@@ -10,11 +10,11 @@ document.addEventListener('DOMContentLoaded', function() {
             right: 'dayGridMonth,timeGridWeek,timeGridDay,listMonth'
         },
         locale: initialLocaleCode,
-        buttonIcons: false, // show the prev/next text
+        buttonIcons: true,
         weekNumbers: true,
-        navLinks: true, // can click day/week names to navigate views
+        navLinks: true,
         editable: false,
-        dayMaxEvents: true, // allow "more" link when too many events
+        dayMaxEvents: true,
         selectable: true,
         select: function(arg) {
 
@@ -85,5 +85,5 @@ document.addEventListener('DOMContentLoaded', function() {
     calendar.render();
 });
 $(document).ready(function() {
-
+    $(".fc-button").addClass('btn-sm');
 });

@@ -23,42 +23,56 @@ $(document).ready(function() {
         "language" : lang_kor,
         "processing": true,
         "bServerSide": true,
+        rowReorder: {
+            selector: 'td:nth-child(2)'
+        },
+        responsive: {
+            details: {
+                renderer: function ( api, rowIdx, columns ) {
+                    var data = $.map( columns, function ( col, i ) {
+                        return col.hidden ?
+                            '<tr data-dt-row="'+col.rowIndex+'" data-dt-column="'+col.columnIndex+'">'+
+                            '<td>'+col.title+':'+'</td> '+
+                            '<td>'+col.data+'</td>'+
+                            '</tr>' :
+                            '';
+                    } ).join('');
+
+                    return data ?
+                        $('<table/>').append( data ) :
+                        false;
+                }
+            }
+        },
         "columns": [
-            {
-                "class":          "details-control",
-                "orderable":      false,
-                "aaData":           null,
-                "defaultContent": "",
-                width: "10px"
-            },
-            {"aaData": "idx",width: "1px","visible": false},
-            {"aaData": "time",width: "150px", className: "alCenter"},
+            {"aaData": "idx",width: "20px", className: "alRight hd"},
+            {"aaData": "controll",width: "30px", className: "alCenter hd"},
             {"aaData": "type",width: "70px", className: "alCenter" },
-            {"aaData": "title" },
-            {"aaData": "comment","visible": false},
-            {"aaData": "writer",width: "50px", className: "alCenter"  },
-            {"aaData": "answer","visible": false,width: "50px", className: "alCenter"  },
             {"aaData": "status",width: "80px", className: "alCenter"  },
-            {"aaData": "controll",width: "30px","visible": true},
+            {"aaData": "title" , className: "alLeft"},
+            {"aaData": "writer",width: "50px", className: "alCenter"  },
+            {"aaData": "time",width: "130px", className: "alCenter"},
+            {"aaData": "comment","visible": false},
+            {"aaData": "answer","visible": false }
         ],
         "sAjaxSource" : APIIP+"oneshot/loadQnaList",
         "sServerMethod": "POST",
         "fnRowCallback": function( nRow, aData, iDisplayIndex ) {
-            var getTime = aData[2];
-            var getIdx = aData[1];
+            var getTime = aData[6];
+            var getIdx = aData[0];
             var getTitle = aData[4];
-            var getComment = aData[5];
-            var getAnswer = aData[7];
-            var getStatus = aData[8];
+            var getComment = aData[7];
+            var getAnswer = aData[8];
+            var getStatus = aData[3];
 
             if(getStatus=='0'){
                 getStatus = '<label class="bg-danger rounded text-white p-1">미답변</label>'
             }else{
                 getStatus = '<label class="bg-success rounded text-white p-1">답변완료</label>'
             }
-            $("td:eq(1)", nRow).html(moment(getTime).format('YYYY-MM-DD hh:mm'));
-            $("td:eq(5)", nRow).html(getStatus);
-            $("td:eq(6)", nRow).html('<div class="col-md-12 d-inline"><a href="javascript:;" class="text-primary fw-bold mb-0 p-1" title="답변 입력" onclick="answerQna('+getIdx+',\''+getTitle+'\',\''+getComment+'\',\''+getAnswer+'\')"><i class="fas fa-reply"></i></a>'+
+            $("td:eq(6)", nRow).html(moment(getTime).format('YYYY-MM-DD HH:mm'));
+            $("td:eq(3)", nRow).html(getStatus);
+            $("td:eq(1)", nRow).html('<div class="col-md-12 d-inline"><a href="javascript:;" class="text-primary fw-bold mb-0 p-1" title="답변 입력" onclick="answerQna('+getIdx+',\''+getTitle+'\',\''+getComment+'\',\''+getAnswer+'\')"><i class="fas fa-reply"></i></a>'+
                                      '<a href="javascript:;" class="text-danger fw-bold mb-0 p-1" title="글 삭제" onclick="deleteQna('+getIdx+',\''+getTitle+'\')">X</a></div>');
         }
     });
@@ -93,8 +107,25 @@ $(document).ready(function() {
     }
     var detailRows = [];
 
-    $('#qnaTable tbody').on( 'click', 'tr td:not(:last-child)', function () {
-        detailRowsFunc(this);
+    $('#qnaTable tbody').on( 'click', 'td:gt(1)', function () {
+      //  detailRowsFunc(this);
+        var tr = $(this).closest('tr');
+        var row = dt.row( tr );
+
+        if($(this).attr('class').indexOf('hd') > 0){
+            return false;
+        }
+        $("#viewQnaTitle").html('['+row.data()[2]+'] '+ row.data()[4]);
+        $("#viewQnaWriter").html(moment(row.data()[6]).format('YYYY-MM-DD')+' '+ row.data()[5]);
+        $("#viewQnaComment").html("<i class='fa fa-arrow-right'></i>질문: "+row.data()[7]);
+
+        if(row.data()[3]=='1'){
+            $("#viewQnaAnswer").html("<i class='fa fa-arrow-left'></i>답변: "+row.data()[8]);
+        }else{
+            $("#viewQnaAnswer").html('');
+        }
+
+        $('#viewQnaModal').modal('show');
     } );
 
     // On each draw, loop over the `detailRows` array and show any child rows
@@ -104,7 +135,9 @@ $(document).ready(function() {
         } );
     } );
 
-
+    $("#viewQnaCloseBtn,#viewQnaCancelBtn").click(function (){
+        $('#viewQnaModal').modal('hide');
+    });
     $("#answerQnaCloseBtn,#answerQnaCancelBtn").click(function (){
         $('#answerQnaModal').modal('hide');
     });
@@ -195,6 +228,8 @@ function answerQna(idx,title,comment,answer){
     $("#answerQnaComment").val(comment);
     if(answer!=null && answer !='null'){
         $("#answerQnaReply").val(answer);
+    }else{
+        $("#answerQnaReply").val('');
     }
     $("#answerQnaIdx").val(idx);
     $('#answerQnaModal').modal('show');

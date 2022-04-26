@@ -10,20 +10,41 @@ $(document).ready(function() {
         "language" : lang_kor,
         "processing": true,
         "bServerSide": true,
+        rowReorder: {
+            selector: 'td:nth-child(2)'
+        },
+        responsive: {
+            details: {
+                renderer: function ( api, rowIdx, columns ) {
+                    var data = $.map( columns, function ( col, i ) {
+                        return col.hidden ?
+                            '<tr data-dt-row="'+col.rowIndex+'" data-dt-column="'+col.columnIndex+'">'+
+                            '<td>'+col.title+':'+'</td> '+
+                            '<td>'+col.data+'</td>'+
+                            '</tr>' :
+                            '';
+                    } ).join('');
+
+                    return data ?
+                        $('<table/>').append( data ) :
+                        false;
+                }
+            }
+        },
         "columns": [
             {"aaData": "idx",width: "10px", className: "alRight"},
-            {"aaData": "time", className: "alCenter"},
             {"aaData": "type", className: "alCenter" },
+            {"aaData": "status", className: "alCenter" },
             {"aaData": "name", className: "alCenter" },
             {"aaData": "phone", className: "alCenter"  },
-            {"aaData": "status", className: "alCenter" }
+            {"aaData": "time", className: "alCenter"}
         ],
         "sAjaxSource" : APIIP+"oneshot/loadEazyList",
         "sServerMethod": "POST",
         "fnRowCallback": function( nRow, aData, iDisplayIndex ) {
-            var getTime = aData[1];
+            var getTime = aData[5];
             var getIdx = aData[0];
-            var getStatus = aData[5];
+            var getStatus = aData[2];
             var statusHtml;
             var stautsClass;
             if(getStatus==0){
@@ -32,8 +53,8 @@ $(document).ready(function() {
                 statusHtml = '<i class="fa fa-check"></i>확인완료';
                 stautsClass = 'text-info'
             }
-            $("td:eq(1)", nRow).html(moment(getTime).format('YYYY-MM-DD hh:mm'));
-            $("td:eq(5)", nRow).html(statusHtml);
+            $("td:eq(5)", nRow).html(moment(getTime).format('YYYY-MM-DD HH:mm'));
+            $("td:eq(2)", nRow).html(statusHtml);
             $(nRow).addClass(stautsClass);
         }
     });
@@ -49,25 +70,46 @@ $(document).ready(function() {
         "language" : lang_kor,
         "processing": true,
         "bServerSide": true,
+        rowReorder: {
+            selector: 'td:nth-child(2)'
+        },
+        responsive: {
+            details: {
+                renderer: function ( api, rowIdx, columns ) {
+                    var data = $.map( columns, function ( col, i ) {
+                        return col.hidden ?
+                            '<tr data-dt-row="'+col.rowIndex+'" data-dt-column="'+col.columnIndex+'">'+
+                            '<td>'+col.title+':'+'</td> '+
+                            '<td>'+col.data+'</td>'+
+                            '</tr>' :
+                            '';
+                    } ).join('');
+
+                    return data ?
+                        $('<table/>').append( data ) :
+                        false;
+                }
+            }
+        },
         "columns": [
             {"aaData": "idx",width: "10px", className: "alRight"},
-            {"aaData": "time", className: "alCenter"},
             {"aaData": "type", className: "alCenter" },
+            {"aaData": "status", className: "alCenter" },
             {"aaData": "name", className: "alCenter" },
             {"aaData": "phone", className: "alCenter"  },
             {"aaData": "date", className: "alCenter"  },
             {"aaData": "addr", className: "alLeft"  },
             {"aaData": "apt_size", className: "alRight"  },
-            {"aaData": "status", className: "alCenter" }
+            {"aaData": "time", className: "alCenter"}
         ],
         "sAjaxSource" : APIIP+"oneshot/loadReservationList",
         "sServerMethod": "POST",
         "fnRowCallback": function( nRow, aData, iDisplayIndex ) {
             console.log(aData);
             var getIdx = aData[0];
-            var getTime = aData[1];
+            var getTime = aData[8];
             var getDate = aData[5];
-            var getStatus = aData[8];
+            var getStatus = aData[2];
             var statusHtml;
             var stautsClass;
             if(getStatus==0){
@@ -76,9 +118,9 @@ $(document).ready(function() {
                 statusHtml = '<i class="fa fa-check"></i>확인완료';
                 stautsClass = 'text-info'
             }
-            $("td:eq(1)", nRow).html(moment(getTime).format('YYYY-MM-DD hh:mm'));
-            $("td:eq(5)", nRow).html(moment(getDate).format('YYYY-MM-DD hh:mm'));
-            $("td:eq(8)", nRow).html(statusHtml);
+            $("td:eq(8)", nRow).html(moment(getTime).format('YYYY-MM-DD HH:mm'));
+            $("td:eq(5)", nRow).html(moment(getDate).format('YYYY-MM-DD HH:mm'));
+            $("td:eq(2)", nRow).html(statusHtml);
             $(nRow).addClass(stautsClass);
         }
     });

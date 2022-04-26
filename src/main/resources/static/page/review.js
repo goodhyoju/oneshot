@@ -8,29 +8,49 @@ $(document).ready(function() {
         "language" : lang_kor,
         "processing": true,
         "bServerSide": true,
+        rowReorder: {
+            selector: 'td:nth-child(2)'
+        },
+        responsive: {
+            details: {
+                renderer: function ( api, rowIdx, columns ) {
+                    var data = $.map( columns, function ( col, i ) {
+                        return col.hidden ?
+                            '<tr data-dt-row="'+col.rowIndex+'" data-dt-column="'+col.columnIndex+'">'+
+                            '<td>'+col.title+':'+'</td> '+
+                            '<td>'+col.data+'</td>'+
+                            '</tr>' :
+                            '';
+                    } ).join('');
+
+                    return data ?
+                        $('<table/>').append( data ) :
+                        false;
+                }
+            }
+        },
         "columns": [
-            {"aaData": "time",width: "150px", className: "alCenter"},
             {"aaData": "type",width: "50px", className: "alCenter"  },
-            {"aaData": "comment"},
-            {"aaData": "writer",width: "50px", className: "alCenter"  },
             {"aaData": "score",width: "130px", className: "alLeft"  },
-            {"aaData": "controll",width: "30px","visible": true},
+            {"aaData": "comment", className: "alLeft"},
+            {"aaData": "writer",width: "50px", className: "alCenter"  },
+            {"aaData": "time",width: "150px", className: "alCenter"}
         ],
         "sAjaxSource" : APIIP+"oneshot/loadReviewList",
         "sServerMethod": "POST",
         "fnRowCallback": function( nRow, aData, iDisplayIndex ) {
-            var getTime = aData[0];
-            var getScore = aData[4];
+            var getTime = aData[4];
+            var getScore = aData[1];
 
             var scoreHtml = [];
             scoreHtml.push('<div class="form-control d-inline bg-white border-0">')
             for(var i=0; i<getScore; i++){
-                scoreHtml.push('<img src="lib/raty/images/star-on.png" />')
+                scoreHtml.push('<img src="img/icon-star.png" width="20"/>')
             }
             scoreHtml.push('</div>');
 
-            $("td:eq(0)", nRow).html(moment(getTime).format('YYYY-MM-DD hh:mm'));
-            $("td:eq(4)", nRow).html(scoreHtml.join(''));
+            $("td:eq(4)", nRow).html(moment(getTime).format('YYYY-MM-DD HH:mm'));
+            $("td:eq(1)", nRow).html(scoreHtml.join(''));
         }
     });
 
@@ -59,7 +79,7 @@ $(document).ready(function() {
             var json = {
                 type: $("#reviewType").val(),
                 writer: $("#reviewWriter").val(),
-                comment: $("#reviewComment").val(),
+                comment: $("#reviewComment").val().replace(/\r\n|\n/gi , "<br>"),
                 scope: $("#reviewScope").val()
             };
             try {

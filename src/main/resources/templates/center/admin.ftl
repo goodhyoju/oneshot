@@ -38,15 +38,15 @@
                     <div class="col-md-12">
                         <h4 class="mb-3 text-white" style="background: linear-gradient(45deg, #007c87, transparent)"><i class="fa fa-check"></i>간편상담 리스트</h4>
                         <!-- quick table start -->
-                        <table id="eazyTable" class="ui celled table hover" style="width:100%">
+                        <table id="eazyTable" class="ui celled table hover display nowrap" style="width:100%">
                             <thead>
                             <tr>
-                                <th>idx</th>
-                                <th>작성일</th>
+                                <th>ID</th>
                                 <th>서비스</th>
+                                <th>진행상태</th>
                                 <th>이름</th>
                                 <th>전화번호</th>
-                                <th>진행상태</th>
+                                <th>작성일</th>
                             </tr>
                             </thead>
                         </table>
@@ -55,18 +55,18 @@
                     <div class="col-md-12">
                         <h4 class="mb-3 text-white" style="background: linear-gradient(45deg, #007c87, transparent)"><i class="fa fa-check"></i>상담 신청 리스트</h4>
                         <!-- quick table start -->
-                        <table id="reservationTable" class="ui celled table hover" style="width:100%">
+                        <table id="reservationTable" class="ui celled table hover display nowrap" style="width:100%">
                             <thead>
                             <tr>
-                                <th>idx</th>
-                                <th>작성일</th>
+                                <th>ID</th>
                                 <th>서비스</th>
+                                <th>진행상태</th>
                                 <th>이름</th>
                                 <th>전화번호</th>
                                 <th>신청일자</th>
                                 <th>주소</th>
                                 <th>평수</th>
-                                <th>진행상태</th>
+                                <th>작성일</th>
                             </tr>
                             </thead>
                         </table>

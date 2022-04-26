@@ -32,26 +32,25 @@
         <!-- Header End -->
         <!-- Search Start -->
         <div class="container-fluid  mb-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 20px;padding: 25px;border-top: solid 2px #00d1b2;">
-            <div class="container">
-                <div class="text-center mx-auto mb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 700px;">
+            <div class="container" style="max-width: 100%;">
+                <div class="text-center mx-auto mb-4 wow fadeInUp" data-wow-delay="0.1s" style="width: 100%">
                     <button class="btn btn-sm btn-outline-primary" id="addNotisBtn"><i class="fa fa-plus"></i> 공지사항 입력</button>
                 </div>
                 <div class="row g-2">
                     <div class="col-md-12">
 
                         <!-- table start -->
-                        <table id="notiTable" class="ui celled table hover" style="width:100%">
+                        <table id="notiTable" class="ui celled table hover display nowrap" style="width:100%">
                             <thead>
                                 <tr>
-                                    <th></th>
-                                    <th>idx</th>
-                                    <th>작성일</th>
+                                    <th>ID</th>
+                                    <th>운영</th>
                                     <th>구분</th>
                                     <th>제목</th>
                                     <th>내용</th>
+                                    <th>작성일</th>
                                     <th>작성자</th>
                                     <th>조회수</th>
-                                    <th></th>
                                 </tr>
                             </thead>
                         </table>
@@ -104,8 +103,52 @@
 
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-sm btn-success" id="addNotisSaveBtn"><i class="fa fa-check"></i>저장</button>
-                    <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal" id="addNotisCancelBtn"><i class="fa fa-close"></i>취소</button>
+                    <button type="button" class="btn btn-sm btn-success" id="addNotisSaveBtn"><i class="fa fa-check"></i> 저장</button>
+                    <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal" id="addNotisCancelBtn"><i class="fa fa-times"></i> 취소</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal end -->
+
+
+    <!-- Modal start -->
+    <div class="modal fade" id="viewNotisModal" tabindex="-1" role="dialog" aria-labelledby="viewNotisModalLabel" aria-hidden="true" >
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="viewNotisModalLabel">공지사항</h5>
+                    <a id="viewNotisCloseBtn"><span class="text-dark fw-bold">x</span> </a>
+                </div>
+                <div class="modal-body" style="z-index: 1">
+                    <div class="col-md-12">
+                        <div class="row g-2">
+                            <div class="col-md-12">
+
+
+                                <div class="owl-item" style="width: 100%;"><div class="testimonial-item bg-light rounded p-3">
+                                        <div class="bg-white border rounded p-4">
+
+                                            <div class="d-flex align-items-center">
+                                                <img class="img-fluid flex-shrink-0 rounded" src="img/icon-alert.png" style="width: 45px; height: 45px;">
+                                                <div class="ps-3">
+                                                    <h6 class="fw-bold mb-1" id="viewNotisTitle"></h6>
+                                                    <small id="viewNotisWriter"></small>
+                                                </div>
+                                            </div>
+                                            <p id="viewNotisComment" class="mt-1 mb-0"></p>
+                                        </div>
+                                    </div></div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal" id="viewNotisCancelBtn"><i class="fa fa-times"></i> 닫기</button>
                 </div>
             </div>
         </div>

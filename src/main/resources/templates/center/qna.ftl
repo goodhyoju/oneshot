@@ -39,19 +39,18 @@
                 <div class="row g-2">
                     <div class="col-md-12">
                         <!-- table start -->
-                        <table id="qnaTable" class="ui celled table hover" style="width:100%">
+                        <table id="qnaTable" class="ui celled table hover display nowrap" style="width:100%">
                             <thead>
                                 <tr>
-                                    <th></th>
-                                    <th>idx</th>
-                                    <th>작성일</th>
+                                    <th>ID</th>
+                                    <th>운영</th>
                                     <th>종류</th>
+                                    <th>상태</th>
                                     <th>제목</th>
-                                    <th>내용</th>
                                     <th>작성자</th>
+                                    <th>작성일</th>
+                                    <th>내용</th>
                                     <th>답변</th>
-                                    <th>진행상태</th>
-                                    <th></th>
                                 </tr>
                             </thead>
                         </table>
@@ -102,8 +101,8 @@
 
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-sm btn-success" id="addQnaSaveBtn"><i class="fa fa-check"></i>저장</button>
-                    <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal" id="addQnaCancelBtn"><i class="fa fa-close"></i>취소</button>
+                    <button type="button" class="btn btn-sm btn-success" id="addQnaSaveBtn"><i class="fa fa-check"></i> 저장</button>
+                    <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal" id="addQnaCancelBtn"><i class="fa fa-times"></i> 취소</button>
                 </div>
             </div>
         </div>
@@ -138,14 +137,56 @@
                     <input type="hidden" id="answerQnaIdx" value="" />
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-sm btn-success" id="answerQnaSaveBtn"><i class="fa fa-check"></i>저장</button>
-                    <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal" id="answerQnaCancelBtn"><i class="fa fa-close"></i>취소</button>
+                    <button type="button" class="btn btn-sm btn-success" id="answerQnaSaveBtn"><i class="fa fa-check"></i> 저장</button>
+                    <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal" id="answerQnaCancelBtn"><i class="fa fa-times"></i> 취소</button>
                 </div>
             </div>
         </div>
     </div>
     <!-- Modal end -->
+    <!-- Modal start -->
+    <div class="modal fade" id="viewQnaModal" tabindex="-1" role="dialog" aria-labelledby="viewQnaModalLabel" aria-hidden="true" >
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="viewQnaModalLabel">공지사항</h5>
+                    <a id="viewQnaCloseBtn"><span class="text-dark fw-bold">x</span> </a>
+                </div>
+                <div class="modal-body" style="z-index: 1">
+                    <div class="col-md-12">
+                        <div class="row g-2">
+                            <div class="col-md-12">
 
+
+                                <div class="owl-item" style="width: 100%;"><div class="testimonial-item bg-light rounded p-3">
+                                        <div class="bg-white border rounded p-4">
+
+                                            <div class="d-flex align-items-center">
+                                                <img class="img-fluid flex-shrink-0 rounded" src="img/icon-question.png" style="width: 45px; height: 45px;">
+                                                <div class="ps-3">
+                                                    <h6 class="fw-bold mb-1" id="viewQnaTitle"></h6>
+                                                    <small id="viewQnaWriter"></small>
+                                                </div>
+                                            </div>
+                                            <p id="viewQnaComment" class="mt-1 mb-2"></p>
+                                            <p id="viewQnaAnswer" class="mt-1 mb-0 text-primary fw-bold"></p>
+                                        </div>
+                                    </div></div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal" id="viewQnaCancelBtn"><i class="fa fa-times"></i> 닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal end -->
     <#include "/common/common_js.ftl">
     <script src="page/qna.js"></script>
 </body>

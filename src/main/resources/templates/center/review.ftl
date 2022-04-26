@@ -40,15 +40,14 @@
                 <div class="row g-2">
                     <div class="col-md-12">
                         <!-- table start -->
-                        <table id="reviewTable" class="ui celled table hover" style="width:100%">
+                        <table id="reviewTable" class="ui celled table hover display nowrap" style="width:100%">
                             <thead>
                             <tr>
-                                <th>작성일</th>
                                 <th>종류</th>
+                                <th>별점</th>
                                 <th>내용</th>
                                 <th>작성자</th>
-                                <th>별점</th>
-                                <th></th>
+                                <th>작성일</th>
                             </tr>
                             </thead>
                         </table>
@@ -100,8 +99,8 @@
 
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-sm btn-success" id="addReviewSaveBtn"><i class="fa fa-check"></i>저장</button>
-                    <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal" id="addReviewCancelBtn"><i class="fa fa-close"></i>취소</button>
+                    <button type="button" class="btn btn-sm btn-success" id="addReviewSaveBtn"><i class="fa fa-check"></i> 저장</button>
+                    <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal" id="addReviewCancelBtn"><i class="fa fa-times"></i> 취소</button>
                 </div>
             </div>
         </div>
