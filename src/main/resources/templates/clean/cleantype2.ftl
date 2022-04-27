@@ -231,7 +231,6 @@
                         <h2 class="mb-4">서비스</h2>
                         <p class="mb-4">피톤치드, 스팀기 친환경 살균소독으로 고객님의 건강을 위해 청결한 환경을 만들어 드리습니다.</p>
                         <p><i class="fa fa-check text-primary me-3"></i>청소 후에 꼼꼼히 검수하시고, 계좌이체나 현장에서 바로 지불해주시면 됩니다.</p>
-                        <p><i class="fa fa-check text-primary me-3"></i>현금 영수증이나 세금계산서 발행시에는 10%부가세 발생합니다.</p>
                         <p><i class="fa fa-check text-primary me-3"></i>잘 하시는 팀장님으로 배정을 도와드리겠습니다.</p>
                     </div>
                 </div>
