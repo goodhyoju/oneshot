@@ -202,7 +202,7 @@ public class PageController {
      *
      * @return
      */
-    @RequestMapping(value = "admin", method = {RequestMethod.POST,RequestMethod.GET})
+    @RequestMapping(value = "admin1981", method = {RequestMethod.POST,RequestMethod.GET})
     public ModelAndView admin() {
         ModelAndView view = new ModelAndView("/center/admin");
         view.addObject("myip",systemUtils.getServerIp());

@@ -43,7 +43,6 @@
                         <a href="free" class="dropdown-item smenu">손 없는 날</a>
                     </div>
                 </div>
-                <a href="admin" class="nav-item nav-link smenu">관리자</a>
             </div>
             <a href="tel:1899-2455" class="btn btn-primary px-3 d-none d-lg-flex"><i class="fa fa-phone-alt me-3"></i>1899-2455</a>
         </div>
