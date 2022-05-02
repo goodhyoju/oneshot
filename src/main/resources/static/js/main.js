@@ -62,7 +62,7 @@ $(document).ready(function() {
     if(myip=='180.70.55.111' || myip=='203.236.8.208'){
         APIIP = "http://localhost:8081/";
     }
-  //  APIIP = "http://localhost:8081/";
+//    APIIP = "http://localhost:8081/";
 
     $(".nav-link").removeClass('active');
     var getPageName = $("#pagename").val();
@@ -158,6 +158,19 @@ function destroyMask(string) {
 
 function createMask(string) {
     return string.replace(/(\d{3})(\d{4})(\d{4})/, "$1-$2-$3");
+}
+
+function getParam(name)
+{
+    var curr_url = location.search.substr(location.search.indexOf("?") + 1);
+    var svalue = "";
+    curr_url = curr_url.split("&");
+    for (var i = 0; i < curr_url.length; i++)
+    {
+        temp = curr_url[i].split("=");
+        if ([temp[0]] == name) { svalue = temp[1]; }
+    }
+    return svalue;
 }
 
 var lang_kor = {

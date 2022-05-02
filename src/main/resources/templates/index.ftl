@@ -247,7 +247,7 @@
                                         문의사항이 있으시면 언제든지 주저말고 연락바랍니다. 감사합니다.
                                     </p>
                                 </div>
-                                <a href="tel:0000-0000" class="btn btn-primary py-3 px-4 me-2 " style="float: right;"><i class="fa fa-phone-alt me-3"></i> 전화문의</a>
+                                <a href="tel:1899-2455" class="btn btn-primary py-3 px-4 me-2 " style="float: right;"><i class="fa fa-phone-alt me-3"></i> 전화문의</a>
                             </div>
                         </div>
                     </div>

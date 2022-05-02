@@ -27,17 +27,19 @@ $(document).ready(function() {
             }
         },
         "columns": [
+            {"aaData": "idx",width: "50px","visible": false  },
             {"aaData": "type",width: "50px", className: "alCenter"  },
-            {"aaData": "score",width: "130px", className: "alLeft"  },
+            {"aaData": "score",width: "150px", className: "alLeft"  },
             {"aaData": "comment", className: "alLeft"},
             {"aaData": "writer",width: "50px", className: "alCenter"  },
-            {"aaData": "time",width: "150px", className: "alCenter"}
+            {"aaData": "time",width: "150px", className: "alCenter"},
+            {"aaData": "control",width: "20px","visible": false }
         ],
         "sAjaxSource" : APIIP+"oneshot/loadReviewList",
         "sServerMethod": "POST",
         "fnRowCallback": function( nRow, aData, iDisplayIndex ) {
-            var getTime = aData[4];
-            var getScore = aData[1];
+            var getTime = aData[5];
+            var getScore = aData[2];
 
             var scoreHtml = [];
             scoreHtml.push('<div class="form-control d-inline bg-white border-0">')

@@ -43,7 +43,6 @@
                             <thead>
                                 <tr>
                                     <th>ID</th>
-                                    <th>운영</th>
                                     <th>종류</th>
                                     <th>상태</th>
                                     <th>제목</th>
@@ -51,6 +50,7 @@
                                     <th>작성일</th>
                                     <th>내용</th>
                                     <th>답변</th>
+                                    <th>운영</th>
                                 </tr>
                             </thead>
                         </table>

@@ -43,11 +43,13 @@
                         <table id="reviewTable" class="ui celled table hover display nowrap" style="width:100%">
                             <thead>
                             <tr>
+                                <th>ID</th>
                                 <th>종류</th>
                                 <th>별점</th>
                                 <th>내용</th>
                                 <th>작성자</th>
                                 <th>작성일</th>
+                                <th>변경</th>
                             </tr>
                             </thead>
                         </table>
