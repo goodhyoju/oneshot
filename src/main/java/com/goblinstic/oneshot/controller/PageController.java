@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.http.HttpServletRequest;
+import java.io.UnsupportedEncodingException;
+
 /**
  * packageName : com.goblinstic.oneshot.controller
  * fileName : PageController
@@ -204,11 +207,12 @@ public class PageController {
      * @return
      */
     @RequestMapping(value = "admin1981", method = {RequestMethod.POST,RequestMethod.GET})
-    public ModelAndView admin(@RequestParam String consultant) {
+    public ModelAndView admin(HttpServletRequest request) throws UnsupportedEncodingException {
+        request.setCharacterEncoding("utf-8");
         ModelAndView view = new ModelAndView("/center/admin");
         view.addObject("myip",systemUtils.getServerIp());
         view.addObject("page","admin");
-        view.addObject("consultant",consultant);
+        view.addObject("consultant",request.getParameter("consultant"));
         return view;
     }
 }
