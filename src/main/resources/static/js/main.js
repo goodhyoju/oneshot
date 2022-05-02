@@ -170,6 +170,7 @@ function getParam(name)
         temp = curr_url[i].split("=");
         if ([temp[0]] == name) { svalue = temp[1]; }
     }
+    console.log(svalue);
     return svalue;
 }
 

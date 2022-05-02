@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
@@ -203,10 +204,11 @@ public class PageController {
      * @return
      */
     @RequestMapping(value = "admin1981", method = {RequestMethod.POST,RequestMethod.GET})
-    public ModelAndView admin() {
+    public ModelAndView admin(@RequestParam String consultant) {
         ModelAndView view = new ModelAndView("/center/admin");
         view.addObject("myip",systemUtils.getServerIp());
         view.addObject("page","admin");
+        view.addObject("consultant",consultant);
         return view;
     }
 }

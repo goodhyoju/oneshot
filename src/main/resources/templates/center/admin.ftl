@@ -316,6 +316,9 @@
         </div>
     </div>
     <!-- Modal end -->
+
+    <input type="hidden" id="consultant" value="${consultant}" />
+
     <#include "/common/common_js.ftl">
     <script src="page/admin.js"></script>
 </body>

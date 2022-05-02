@@ -1,6 +1,6 @@
 var getConsultant,eazyDt,reservationDt,notisDt,qnaDt,reviewDt,calendar;
 $(document).ready(function() {
-    getConsultant = getParam('consultant');
+    getConsultant = $("#consultant").val();
     if(isEmpty(getConsultant)){
         getConsultant = '운영자';
     }
