@@ -13,7 +13,9 @@
                     <p><em class="text-danger" style="margin-right: 10px;"><i class="fa fa-star" ></i> 확인 하신 상담원은 상태를 변경해주세요.</em>
                         <em class="text-info" style=""><i class="fa fa-history"></i> 이페이지의 데이터는 1분주기로 자동 갱신됩니다.</em>
                     </p>
-
+                    <p>
+                        <h4 class="text-danger">TEST 중입니다.웹사이트는 http://49.50.160.190 입니다. 곧 도메인 연결합니다.</h4>
+                    </p>
                 </div>
                 <div class="row g-2">
                     <ul class="nav nav-tabs mb-2" id="adminTab">
