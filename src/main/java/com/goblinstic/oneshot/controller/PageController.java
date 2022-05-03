@@ -1,6 +1,7 @@
 package com.goblinstic.oneshot.controller;
 
 import com.goblinstic.oneshot.utils.SystemUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -210,9 +211,15 @@ public class PageController {
     public ModelAndView admin(HttpServletRequest request) throws UnsupportedEncodingException {
         request.setCharacterEncoding("utf-8");
         ModelAndView view = new ModelAndView("/center/admin");
+
+        String consultant = (String)request.getParameter("consultant");
+        if(StringUtils.isEmpty(consultant)){
+            consultant = "운영자";
+        }
+
         view.addObject("myip",systemUtils.getServerIp());
         view.addObject("page","admin");
-        view.addObject("consultant",request.getParameter("consultant"));
+        view.addObject("consultant",consultant);
         return view;
     }
 }
