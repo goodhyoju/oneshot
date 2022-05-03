@@ -14,7 +14,7 @@
                         <em class="text-info" style=""><i class="fa fa-history"></i> 이페이지의 데이터는 1분주기로 자동 갱신됩니다.</em>
                     </p>
                     <p>
-                        <h4 class="text-danger">TEST 중입니다.웹사이트는 http://49.50.160.190 입니다. 곧 도메인 연결합니다.</h4>
+                        <h4 class="text-danger">TEST 중입니다.웹사이트는 http://www.24oneshot.com 입니다.</h4>
                     </p>
                 </div>
                 <div class="row g-2">

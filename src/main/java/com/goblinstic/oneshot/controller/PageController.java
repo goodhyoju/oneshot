@@ -212,7 +212,7 @@ public class PageController {
         request.setCharacterEncoding("utf-8");
         ModelAndView view = new ModelAndView("/center/admin");
 
-        String consultant = (String)request.getParameter("consultant");
+        String consultant = request.getParameter("consultant");
         if(StringUtils.isEmpty(consultant)){
             consultant = "운영자";
         }

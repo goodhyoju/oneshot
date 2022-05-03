@@ -1,6 +1,6 @@
 <div class="container-fluid bg-primary mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;">
     <div class="container">
-        <h5 class="mb-4 text-white"><i class="fa fa-comment-alt me-3"></i>간편 상담신청<small style="margin-left: 9px;font-size: small;">저희가 먼저 연락드리겠습니다.</small></h5>
+        <h5 class="mb-4 text-white"><i class="fa fa-comment-alt me-3"></i>무료 간편 상담신청<small style="margin-left: 9px;font-size: small;">저희가 먼저 연락드리겠습니다.</small></h5>
 
         <div class="row g-2">
             <div class="col-md-10">
@@ -24,14 +24,14 @@
                         <input type="text" id="eazyOrderName" class="form-control border-0 py-2" placeholder="김한방">
                     </div>
                     <div class="col-md-4">
-                        <label for="eazyOrderPhone" class="text-white"><i class="fas fa-edit"></i>전화번호</label>
+                        <label for="eazyOrderPhone" class="text-white"><i class="fas fa-edit"></i>휴대폰번호</label>
                         <input type="text" id="eazyOrderPhone" class="form-control border-0 py-2" placeholder="000-0000-0000">
                     </div>
                 </div>
             </div>
             <div class="col-md-2">
                 <label for="orderBtn"></label>
-                <a href="tel:0000-0000" class="btn btn-dark border-0 w-100 py-2" id="eazyOrderBtn"><i class="fa fa-phone-alt me-3"></i> 상담요청하기</a>
+                <a href="tel:0000-0000" class="btn btn-dark border-0 w-100 py-2" id="eazyOrderBtn"><i class="fa fa-phone-alt me-3"></i>무료 상담요청하기</a>
             </div>
         </div>
     </div>
