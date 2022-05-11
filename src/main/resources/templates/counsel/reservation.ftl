@@ -40,7 +40,7 @@
                             <div class="col-md-4">
                                 <label for="orderSvc" class="text-white"><i class="fa fa-check"></i> 서비스</label>
                                 <select class="form-select border-0 py-2" id="orderSvc">
-                                    <option value="청소+이사" selected>청소+이사</option>
+                                    <option value="청소+이사" selected>청소+이사(할인적용)</option>
                                     <option value="가정이사">가정이사</option>
                                     <option value="원룸이사">원룸이사</option>
                                     <option value="보관이사">보관이사</option>
@@ -89,7 +89,7 @@
                             </div>-->
 
                             <div class="col-md-2">
-                                <label for="orderHomeSize" class="text-white"><i class="fas fa-edit"></i>등기평수</label>
+                                <label for="orderHomeSize" class="text-white"><i class="fas fa-edit"></i>분양평수</label>
                                 <select id="orderHomeSize" class="form-control border-0 py-2">
                                     <option value="25" selected>25평</option>
                                     <option value="10">10평</option>

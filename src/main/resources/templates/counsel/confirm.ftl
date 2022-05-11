@@ -19,7 +19,7 @@
         <div class="container-fluid header bg-white p-0">
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <div class="col-md-6 p-5 mt-lg-5">
-                    <h2 class="display-5 animated fadeIn mb-4">예약확인</h2>
+                    <h2 class="display-5 animated fadeIn mb-4">상담 예약확인</h2>
                     <p class="mb-4">
                         예약신청 시 입력하셨던 <span class="text-primary">고객명과 비빌번호</span>를 입력해 주세요.
                     </p>
@@ -61,19 +61,22 @@
                             <table class="table tab-content table-bordered table-hover">
                                 <tbody>
                                 <tr>
-                                    <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 신청 서비스</th><td id="checkService"></td>
-                                    <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 이름</th><td id="checkNamed" ></td>
-                                    <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 전화번호</th><td id="checkPhone"></td>
+                                    <th class="table-dark text-white" style="width: 12%;"><i class="fa fa-check"></i> 신청 서비스</th><td id="checkService"></td>
+                                    <th class="table-dark text-white" style="width: 12%;"><i class="fa fa-check"></i> 이름</th><td id="checkNamed" ></td>
+                                    <th class="table-dark text-white" style="width: 12%;"><i class="fa fa-check"></i> 전화번호</th><td id="checkPhone"></td>
                                 </tr>
                                 <tr>
-                                    <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 실거주지</th><td id="checkHomeAddr"></td>
-                                    <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 이사출발지</th><td id="checkStartAddr"></td>
-                                    <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 이사도착지</th><td id="checkEndAddr"></td>
+                                    <th class="table-dark text-white" style="width: 12%;"><i class="fa fa-check"></i> 실거주지</th><td id="checkHomeAddr"></td>
+                                    <th class="table-dark text-white" style="width: 12%;"><i class="fa fa-check"></i> 이사출발지</th><td id="checkStartAddr"></td>
+                                    <th class="table-dark text-white" style="width: 12%;"><i class="fa fa-check"></i> 이사도착지</th><td id="checkEndAddr"></td>
                                 </tr>
                                 <tr>
-                                    <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 아파트 평형</th><td id="checkHomesize"></td>
-                                    <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 신청일자</th><td id="checkOrderDate"></td>
-                                    <th class="table-success text-primary" style="width: 12%;"><i class="fa fa-check"></i> 신청 비밀번호</th><td id="checkPassword"></td>
+                                    <th class="table-dark text-white" style="width: 12%;"><i class="fa fa-check"></i> 아파트 평형</th><td id="checkHomesize"></td>
+                                    <th class="table-dark text-white" style="width: 12%;"><i class="fa fa-check"></i> 신청일자</th><td id="checkOrderDate"></td>
+                                    <th class="table-dark text-white" style="width: 12%;"><i class="fa fa-check"></i> 신청 비밀번호</th><td id="checkPassword"></td>
+                                </tr>
+                                <tr>
+                                    <th class="table-dark text-white" style="width: 12%;"><i class="fa fa-check"></i> 진행상태</th><td id="checkStatus" colspan="5"></td>
                                 </tr>
                                 </tbody>
                             </table>

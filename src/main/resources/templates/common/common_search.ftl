@@ -8,7 +8,7 @@
                     <div class="col-md-4">
                         <label for="orderSvc" class="text-white"><i class="fa fa-check"></i>서비스</label>
                         <select class="form-select border-0 py-2" id="eazyOrderSvc">
-                            <option value="청소+이사" selected>청소+이사</option>
+                            <option value="청소+이사" selected>청소+이사(할인적용)</option>
                             <option value="가정이사">가정이사</option>
                             <option value="원룸이사">원룸이사</option>
                             <option value="보관이사">보관이사</option>

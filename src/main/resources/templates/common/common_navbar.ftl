@@ -31,7 +31,7 @@
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">상담/예약</a>
                     <div class="dropdown-menu rounded-0 m-0">
                         <a href="reservation" class="dropdown-item smenu">상담신청</a>
-                        <a href="confirm" class="dropdown-item smenu">예약확인</a>
+                        <a href="confirm" class="dropdown-item smenu">상담 예약확인</a>
                     </div>
                 </div>
                 <div class="nav-item dropdown">
