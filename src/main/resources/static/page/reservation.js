@@ -15,6 +15,18 @@ $(document).ready(function() {
             $(".moveAddr").css('display','none');
         }
     });
+    $('#privacyView').popover({
+        placement: 'top',
+        html: true,
+        trigger: 'hover',
+        title : "개인정보수집 제공 동의",
+        content: "<p>신용정보의 이용 및 보호에 관한 법률 제 23조 및 24조의 규정에 의하여 본 신청서를 통해 귀사가 본인으로부터 취득한 정보는 상품안내를 위한 기초자료로 활용하는데 동의합니다.</p>"+
+            "<p><i class='fa fa-check'></i><strong>수집하는 개인정보 항목:</strong> 자택주소, 휴대전화번호, 이름,이용서비스 기록, 고객 상담 기록</p>"+
+            "<p><i class='fa fa-check'></i><strong>수집하는 개인정보 항목:</strong> 본인 확인, 서비스 제공, 민원 및 사무 처리,마케팅 및 광고 활용</p>"+
+            "<p><i class='fa fa-check'></i><strong>수집 및 이용 목적:</strong> 자택주소, 휴대전화번호, 이름,이용서비스 기록, 고객 상담 기록</p>"+
+            "<p><i class='fa fa-check'></i><strong>보유 및 이용 기간</strong> 소비자 분쟁처리 기록 : 3년, 대금결제 등의 공급에 관한 기록 5년, 계약, 청약철회 등에 관한 기록 5년</p>"
+    });
+
 
     $("#orderDate").val(moment().format('YYYY-MM-DD HH:00'));
     $("#orderBtn").click(function(){
@@ -31,6 +43,11 @@ $(document).ready(function() {
         var orderEndAddr = $("#orderEndAddr").val();
 
         var orderHomeSize = $("#orderHomeSize").val();
+
+        if(!$('#checkShareInfo').is(':checked')){
+            alert('개인정보수집 및 이용, 제3자 제공 동의에 체크 후 신청이 가능합니다.');
+            return false;
+        }
 
         if(isEmpty(getName) ||
             isEmpty(getPhone) ||

@@ -475,3 +475,29 @@ tr.details td.details-control {
 .dp-absolute{
 
 }
+
+input[type="checkbox"]+label {
+    display: block;
+    width: 24px;
+    height: 17px;
+    background: url('../img/checkbox-unchecked.gif') no-repeat 0 0px / contain;
+}
+
+input[type='checkbox']:checked+label {
+    background: url('../img/checkbox-checked.png') no-repeat 0 1px / contain;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.well{
+    max-width: 400px;
+    margin: 0 auto;
+    position: fixed;
+    top: 10px;
+}
+
+.popover{
+    max-width:600px !important;
+}
