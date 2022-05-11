@@ -33,9 +33,9 @@
         <!-- Testimonial Start -->
         <div class="container-xxl py-5">
             <div class="container">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="margin-top: 20px;padding: 25px;border-top: solid 2px #00d1b2;">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="margin-top: 20px;padding: 25px;border-top: solid 2px #362621;">
                     <h2 class="mb-3">이용해주셔서 감사드립니다.</h2>
-                    <button class="btn btn-outline-primary" id="addReviewBtn"><i class="fa fa-edit"></i>이용후기 남기기</button>
+                    <button class="btn btn-primary" id="addReviewBtn"><i class="fa fa-edit"></i>이용후기 남기기</button>
                 </div>
                 <div class="row g-2">
                     <div class="col-md-12">

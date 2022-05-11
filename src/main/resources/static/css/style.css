@@ -1,10 +1,30 @@
 /********** Template CSS **********/
+
 :root {
-    --primary: #00B98E;
+    --primary: #475852;
     --secondary: #FF6922;
     --light: #EFFDF5;
     --dark: #0E2E50;
 }
+
+.bg-primary{background-color:#475852 !important}
+.bg-secondary{background-color:#FF6922 !important}
+.bg-success{background-color:#198754 !important}
+.bg-info{background-color:#0dcaf0 !important}
+.bg-warning{background-color:#ffc107 !important}
+.bg-danger{background-color:#dc3545 !important}
+.bg-light{background-color:#EFFDF5 !important}
+.bg-dark{background-color:#0E2E50  !important}
+.bg-body{background-color:#EFFDF5 !important}
+.bg-white{background-color:#fff !important}
+
+.btn-primary{color:#000;background-color: #b78f71;border-color: #b78f71}
+.btn-primary:hover{color:#000;background-color: #362621;border-color: #362621 !important}
+.btn-primary:focus{color:#000;background-color:#26c49f;border-color:#1ac099;box-shadow:0 0 0 .25rem rgba(0,157,121,0.5) !important}
+
+.text-primary{color:#b78f71 !important}
+.bg-light{background-color: #8a7167 !important}
+
 
 .back-to-top {
     position: fixed;
@@ -320,8 +340,7 @@
     color: var(--secondary) !important;
 }
 
-
-/*** Testimonial ***/
+    /*** Testimonial ***/
 .testimonial-carousel {
     padding-left: 1.5rem;
     padding-right: 1.5rem;

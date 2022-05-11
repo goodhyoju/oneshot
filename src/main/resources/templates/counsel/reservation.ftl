@@ -113,7 +113,7 @@
 
                     <div class="col-md-12">
                         <label for="orderBtn"></label>
-                        <button class="btn btn-dark border-0 w-100 py-2" id="orderBtn"><i class="fa fa-check me-3"></i> 신청하기</button>
+                        <button class="btn btn-primary border-0 w-100 py-2" id="orderBtn"><i class="fa fa-check me-3"></i> 신청하기</button>
                     </div>
                 </div>
             </div>

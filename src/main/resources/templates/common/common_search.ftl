@@ -31,7 +31,7 @@
             </div>
             <div class="col-md-2">
                 <label for="orderBtn"></label>
-                <a href="tel:0000-0000" class="btn btn-dark border-0 w-100 py-2" id="eazyOrderBtn"><i class="fa fa-phone-alt me-3"></i>무료 상담요청하기</a>
+                <a href="tel:0000-0000" class="btn btn-primary border-0 w-100 py-2" id="eazyOrderBtn"><i class="fa fa-phone-alt me-3"></i>무료 상담요청하기</a>
             </div>
         </div>
     </div>

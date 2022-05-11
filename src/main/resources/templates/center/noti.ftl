@@ -31,7 +31,7 @@
         </div>
         <!-- Header End -->
         <!-- Search Start -->
-        <div class="container-fluid  mb-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 20px;padding: 25px;border-top: solid 2px #00d1b2;">
+        <div class="container-fluid  mb-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 20px;padding: 25px;border-top: solid 2px #362621;">
             <div class="container" style="max-width: 100%;">
                 <div class="row g-2">
                     <div class="col-md-12">
