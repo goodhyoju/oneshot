@@ -258,10 +258,12 @@
         <#include "/common/common_footer.ftl">
      </div>
     <#include "/common/common_js.ftl">
+    <script src="page/reservation.js"></script>
 </body>
 <script type="text/javascript">
     $(document).ready(function() {
-        $("#eazyOrderSvc").val('이사청소')
+        $("#orderSvc").val('이사청소');
+        $(".moveAddr").css('display','none');
     });
 </script>
 </html>

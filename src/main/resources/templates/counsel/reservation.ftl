@@ -109,7 +109,7 @@
                             <div class="col-md-10 p-4 text-center">
                                 <input type="checkbox" id="checkShareInfo" />
                                 <label for="checkShareInfo" style="display: inline-block;"></label>
-                                <p id="privacyView" class="d-inline text-white fs-6" style="color: white;">개인정보수집 및 이용, 제3자 제공 동의 <i class="fa fa-search"></i></p>
+                                <p id="privacyView" class="d-inline text-white fs-6" style="color: white;position: relative;top: -3px;">개인정보수집 및 이용, 제3자 제공 동의 <i class="fa fa-search"></i></p>
                             </div>
 
                         </div>

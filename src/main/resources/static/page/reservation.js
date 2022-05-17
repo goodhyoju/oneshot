@@ -9,10 +9,11 @@ $(document).ready(function() {
     });
     $("#orderSvc").on('change',function (){
         var getValue = this.value;
-        if(getValue.indexOf('이사') > -1){
-            $(".moveAddr").css('display','block');
-        }else{
+
+        if(getValue.indexOf('청소') > 0){
             $(".moveAddr").css('display','none');
+        }else{
+            $(".moveAddr").css('display','block');
         }
     });
     $('#privacyView').popover({

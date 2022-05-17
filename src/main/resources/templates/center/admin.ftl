@@ -20,7 +20,7 @@
                 <div class="row g-2">
                     <ul class="nav nav-tabs mb-2" id="adminTab">
                         <li class="nav-item">
-                            <a href="#reservationTab" class="nav-link active" data-bs-toggle="tab"><i class="fa fa-list"></i> 간편상담+견적신청</a>
+                            <a href="#reservationTab" class="nav-link active" data-bs-toggle="tab"><i class="fa fa-list"></i> 견적신청</a>
                         </li>
                         <li class="nav-item">
                             <a href="#notiTab" class="nav-link" data-bs-toggle="tab"><i class="fa fa-bullhorn" aria-hidden="true"></i> 공지사항</a>
@@ -38,9 +38,9 @@
                     <div class="tab-content">
                         <!-- 간편상담, 견적상담  -->
                         <div class="tab-pane fade show active" id="reservationTab">
-                            <div class="col-md-12" >
+                            <#--<div class="col-md-12" >
                                 <h4 class="mb-3 text-white" style="background: linear-gradient(45deg, #007c87, transparent)"><i class="fa fa-check"></i>간편상담 리스트</h4>
-                                <!-- quick table start -->
+                                <!-- quick table start &ndash;&gt;
                                 <table id="eazyTable" class="ui celled table hover display nowrap " style="width:100%">
                                     <thead>
                                     <tr>
@@ -55,8 +55,8 @@
                                     </tr>
                                     </thead>
                                 </table>
-                                <!-- quick table end -->
-                            </div>
+                                <!-- quick table end &ndash;&gt;
+                            </div>-->
                             <div class="col-md-12">
                                 <h4 class="mb-3 text-white" style="background: linear-gradient(45deg, #007c87, transparent)"><i class="fa fa-check"></i>상담 신청 리스트</h4>
                                 <!-- quick table start -->

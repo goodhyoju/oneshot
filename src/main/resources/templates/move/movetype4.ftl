@@ -113,10 +113,11 @@
         <#include "/common/common_footer.ftl">
     </div>
     <#include "/common/common_js.ftl">
+    <script src="page/reservation.js"></script>
 </body>
 <script type="text/javascript">
     $(document).ready(function() {
-        $("#eazyOrderSvc").val('기업이사')
+        $("#orderSvc").val('기업이사')
     });
 </script>
 </html>

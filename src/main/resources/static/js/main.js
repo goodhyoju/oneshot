@@ -62,7 +62,27 @@ $(document).ready(function() {
     if(myip=='180.70.55.111' || myip=='203.236.8.208'){
         APIIP = "http://localhost:8081/";
     }
-//    APIIP = "http://localhost:8081/";
+    APIIP = "http://localhost:8081/";
+
+    var callCount = 0;
+    $("#directCallBtn").click(function () {
+
+        $.getJSON('https://jsonip.com', function(data){
+            var getClientIp= data.ip;
+            var json = {
+                ipaddress: getClientIp
+            };
+            $.ajax({
+                url: APIIP+"oneshot/updateCallcount",
+                type: "POST",
+                data: JSON.stringify(json),
+                dataType: 'json',
+                contentType: "application/json; UTF-8;",
+                success: function(data){
+                }
+            });
+        });
+    });
 
     $(".nav-link").removeClass('active');
     var getPageName = $("#pagename").val();

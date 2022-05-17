@@ -33,8 +33,9 @@ public class PageController {
         return view;
     }
     @RequestMapping(value = { "/", "/index" }, method = {RequestMethod.POST,RequestMethod.GET})
-    public ModelAndView index() {
+    public ModelAndView index(HttpServletRequest request) {
         ModelAndView view = new ModelAndView("index");
+
         view.addObject("myip",systemUtils.getServerIp());
         view.addObject("page","index");
         return view;
@@ -211,7 +212,7 @@ public class PageController {
     public ModelAndView admin(HttpServletRequest request) throws UnsupportedEncodingException {
         request.setCharacterEncoding("utf-8");
         ModelAndView view = new ModelAndView("/center/admin");
-
+        String remoteIp = request.getRemoteAddr();
         String consultant = request.getParameter("consultant");
         if(StringUtils.isEmpty(consultant)){
             consultant = "운영자";

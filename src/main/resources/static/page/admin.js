@@ -6,7 +6,7 @@ $(document).ready(function() {
     }
     $("#adminTab li:eq(0) a").tab("show");
 
-    eazyDt = $('#eazyTable').DataTable({
+    /*eazyDt = $('#eazyTable').DataTable({
         "ordering": false,
         "info":     false,
         "lengthChange": false,
@@ -57,7 +57,7 @@ $(document).ready(function() {
 
             $(nRow).addClass(stautsClass);
         }
-    });
+    });*/
 
     reservationDt = $('#reservationTable').DataTable({
         "ordering": false,
@@ -574,14 +574,14 @@ $(document).ready(function() {
                 console.log(error);
             }
             try {
-                eazyReload = setInterval(function() {eazyDt.ajax.reload();}, timeout);
+            //    eazyReload = setInterval(function() {eazyDt.ajax.reload();}, timeout);
                 reservationReload = setInterval(function() {reservationDt.ajax.reload();}, timeout);
             }catch (error){
                 console.log(error);
             }
         }else if(getHref.indexOf('notiTab') > -1){
             try {
-                clearInterval(eazyReload);
+              //  clearInterval(eazyReload);
                 clearInterval(reservationReload);
                 clearInterval(notiReload);
                 clearInterval(qnaReload);
@@ -597,7 +597,7 @@ $(document).ready(function() {
             }
         }else if(getHref.indexOf('reviewTab') > -1){
             try {
-                clearInterval(eazyReload);
+               // clearInterval(eazyReload);
                 clearInterval(reservationReload);
                 clearInterval(notiReload);
                 clearInterval(qnaReload);
@@ -613,7 +613,7 @@ $(document).ready(function() {
             }
         }else if(getHref.indexOf('freeTab') > -1){
             try {
-                clearInterval(eazyReload);
+             //   clearInterval(eazyReload);
                 clearInterval(reservationReload);
                 clearInterval(notiReload);
                 clearInterval(qnaReload);

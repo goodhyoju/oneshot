@@ -95,7 +95,7 @@
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
                                         <a href="movetype1"><img class="img-fluid" src="img/movetype1_s.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">이사</div>
+                                        <div class="bg-success rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">이사</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">가정이사</div>
                                     </div>
                                     <div class="p-4 pb-0">
@@ -115,7 +115,7 @@
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
                                         <a href="movetype2"><img class="img-fluid" src="img/movetype2_s.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">이사</div>
+                                        <div class="bg-success rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">이사</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">원룸이사</div>
                                     </div>
                                     <div class="p-4 pb-0">
@@ -134,7 +134,7 @@
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
                                         <a href="movetype3"><img class="img-fluid" src="img/movetype3_s.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">이사</div>
+                                        <div class="bg-success rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">이사</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">보관이사</div>
                                     </div>
                                     <div class="p-4 pb-0">
@@ -153,7 +153,7 @@
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
                                         <a href="movetype4"><img class="img-fluid" src="img/movetype4_s.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">이사</div>
+                                        <div class="bg-success rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">이사</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">기업이사</div>
                                     </div>
                                     <div class="p-4 pb-0">
@@ -172,7 +172,7 @@
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
                                         <a href="cleantype1"><img class="img-fluid" src="img/cleantype1_s.jpg" alt=""></a>
-                                        <div class="bg-warning rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">청소</div>
+                                        <div class="bg-info rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">청소</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">입주청소</div>
                                     </div>
                                     <div class="p-4 pb-0">
@@ -185,7 +185,7 @@
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
                                         <a href="cleantype2"><img class="img-fluid" src="img/cleantype2_s.jpg" alt=""></a>
-                                        <div class="bg-warning rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">청소</div>
+                                        <div class="bg-info rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">청소</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">이사청소</div>
                                     </div>
                                     <div class="p-4 pb-0">
@@ -198,7 +198,7 @@
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
                                         <a href="cleantype3"><img class="img-fluid" src="img/cleantype3_s.jpg" alt=""></a>
-                                        <div class="bg-warning rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">청소</div>
+                                        <div class="bg-info rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">청소</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">거주청소</div>
                                     </div>
                                     <div class="p-4 pb-0">
@@ -211,7 +211,7 @@
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
                                         <a href="cleantype4"><img class="img-fluid" src="img/cleantype4_s.png" alt=""></a>
-                                        <div class="bg-warning rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">청소</div>
+                                        <div class="bg-info rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">청소</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">부분청소</div>
                                     </div>
                                     <div class="p-4 pb-0">
@@ -247,7 +247,7 @@
                                         문의사항이 있으시면 언제든지 주저말고 연락바랍니다. 감사합니다.
                                     </p>
                                 </div>
-                                <a href="tel:1899-2455" class="btn btn-primary py-3 px-4 me-2 " style="float: right;"><i class="fa fa-phone-alt me-3"></i> 전화문의</a>
+                                <#--<a href="tel:1899-2455" class="btn btn-primary py-3 px-4 me-2 " style="float: right;"><i class="fa fa-phone-alt me-3"></i> 전화문의</a>-->
                             </div>
                         </div>
                     </div>
@@ -259,6 +259,6 @@
     </div>
 
     <#include "/common/common_js.ftl">
+    <script src="page/reservation.js"></script>
 </body>
-
 </html>
