@@ -90,7 +90,7 @@
 
                             <div class="col-md-2">
                                 <label for="orderHomeSize" class="text-white"><i class="fas fa-edit"></i>분양평수</label>
-                                <input type="number" id="orderHomeSize" class="form-control border-0 py-2" />
+                                <input type="number" id="orderHomeSize" class="form-control border-0 py-2" value="25"/>
                             </div>
                             <div class="col-md-10 p-4 text-center">
                                 <input type="checkbox" id="checkShareInfo" />
