@@ -90,21 +90,7 @@
 
                             <div class="col-md-2">
                                 <label for="orderHomeSize" class="text-white"><i class="fas fa-edit"></i>분양평수</label>
-                                <select id="orderHomeSize" class="form-control border-0 py-2">
-                                    <option value="25" selected>25평</option>
-                                    <option value="10">10평</option>
-                                    <option value="15">15평</option>
-                                    <option value="20">20평</option>
-                                    <option value="25">25평</option>
-                                    <option value="30">30평</option>
-                                    <option value="35">35평</option>
-                                    <option value="40">40평</option>
-                                    <option value="45">45평</option>
-                                    <option value="50">50평</option>
-                                    <option value="55">55평</option>
-                                    <option value="60">60평</option>
-                                    <option value="1000">60평이상</option>
-                                </select>
+                                <input type="number" id="orderHomeSize" class="form-control border-0 py-2" />
                             </div>
                             <div class="col-md-10 p-4 text-center">
                                 <input type="checkbox" id="checkShareInfo" />

@@ -5,7 +5,8 @@ $(document).ready(function() {
     });
     jQuery.datetimepicker.setLocale('kr');
     $('#orderDate').datetimepicker({
-        format:'Y-m-d H:i',
+        format:'Y-m-d',
+        timepicker:false
     });
     $("#orderSvc").on('change',function (){
         var getValue = this.value;
@@ -29,7 +30,7 @@ $(document).ready(function() {
     });
 
 
-    $("#orderDate").val(moment().format('YYYY-MM-DD HH:00'));
+    $("#orderDate").val(moment().format('YYYY-MM-DD'));
     $("#orderBtn").click(function(){
         var getSvc = $("#orderSvc").val();
         var getName = $("#orderName").val();
