@@ -32,4 +32,5 @@
     <link rel="stylesheet" type="text/css" href="lib/fullcalendar/main.css" />
     <!-- datetimepicker Stylesheet -->
     <link rel="stylesheet" type="text/css" href="lib/datetimepicker/jquery.datetimepicker.css" />
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap-datetimepicker/bootstrap-datetimepicker.css" />
 </head>

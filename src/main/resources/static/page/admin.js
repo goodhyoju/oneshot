@@ -6,6 +6,16 @@ $(document).ready(function() {
     }
     $("#adminTab li:eq(0) a").tab("show");
 
+    $("#datetimepicker2") .datetimepicker({
+        locale: "ko",
+        format: "YYYY-MM",
+        defaultDate: moment(),
+        inline: true
+    }).on('dp.change', function(e){
+        createDashboard();
+    });
+    createDashboard();
+
     /*eazyDt = $('#eazyTable').DataTable({
         "ordering": false,
         "info":     false,
@@ -774,4 +784,24 @@ function answerQna(idx,title,comment,answer){
     }
     $("#answerQnaIdx").val(idx);
     $('#answerQnaModal').modal('show');
+}
+
+function createDashboard(){
+
+
+    var getDate = $("#datetimepicker2").data("DateTimePicker").date().toDate();
+    var begin = moment(getDate).add(-9, 'hours').format('YYYY-MM-01 00:00:00');
+    var end = moment(getDate).add(-9, 'hours').format("YYYY-MM-") + moment(getDate).daysInMonth()+' 23:59:59';
+
+    var unixBegin = moment(begin).unix()*1000;
+    var unixEnd = moment(end).unix()*1000;
+
+    var createUrl = "http://49.50.174.83:3000/d/ObeQ3cunz/24oneshot?orgId=1&refresh=1m&kiosk&from="+unixBegin+"&to="+unixEnd;
+
+
+    $("#countIframe").attr('src',createUrl+"&viewPanel=2");
+    $("#totalIframe").attr('src',createUrl+"&viewPanel=6");
+    $("#total0Iframe").attr('src',createUrl+"&viewPanel=3");
+    $("#total1Iframe").attr('src',createUrl+"&viewPanel=4");
+    $("#total2Iframe").attr('src',createUrl+"&viewPanel=5");
 }

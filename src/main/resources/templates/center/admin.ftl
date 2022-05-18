@@ -13,9 +13,26 @@
                     <p><em class="text-danger" style="margin-right: 10px;"><i class="fa fa-star" ></i> 확인 하신 상담원은 상태를 변경해주세요.</em>
                         <em class="text-info" style=""><i class="fa fa-history"></i> 이페이지의 데이터는 1분주기로 자동 갱신됩니다.</em>
                     </p>
-                    <p>
-                        <h4 class="text-danger">TEST 중입니다.웹사이트는 http://www.24oneshot.com 입니다.</h4>
-                    </p>
+                </div>
+                <div class="row g-2">
+                    <div class="col-md-2">
+                        <div id="datetimepicker2" class="form-bg-primary" style="border-radius: 30px;"></div>
+                    </div>
+                    <div class="col-md-2">
+                        <iframe id="countIframe" src="" width="100%" height="200px" frameborder="0"></iframe>
+                    </div>
+                    <div class="col-md-2">
+                        <iframe id="totalIframe" src="" width="100%" height="200px" frameborder="0"></iframe>
+                    </div>
+                    <div class="col-md-2">
+                        <iframe id="total0Iframe" src="" width="100%" height="200px" frameborder="0"></iframe>
+                    </div>
+                    <div class="col-md-2">
+                        <iframe id="total1Iframe" src="" width="100%" height="200px" frameborder="0"></iframe>
+                    </div>
+                    <div class="col-md-2">
+                        <iframe id="total2Iframe" src="" width="100%" height="200px" frameborder="0"></iframe>
+                    </div>
                 </div>
                 <div class="row g-2">
                     <ul class="nav nav-tabs mb-2" id="adminTab">
@@ -320,6 +337,14 @@
     <input type="hidden" id="consultant" value="${consultant}" />
 
     <#include "/common/common_js.ftl">
+    <!-- bootstrap datetimepicker -->
+    <script src="/lib/bootstrap-datetimepicker/moment.min.js" ></script>
+    <script src="/lib/bootstrap-datetimepicker/moment-with-locales.min.js"></script>
+    <script src="/lib/bootstrap-datetimepicker/ko.js"></script>
+    <script src="/lib/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+
     <script src="page/admin.js"></script>
 </body>
 
