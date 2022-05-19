@@ -107,6 +107,9 @@ $(document).ready(function() {
             }else if(getStatus==1){
                 statusHtml = '<i class="fa fa-user-times"></i>부재';
                 stautsClass = 'text-warning'
+            }else if(getStatus==3){
+                statusHtml = '<i class="fa fa-bullhorn"></i>이사방완료';
+                stautsClass = 'text-primary'
             }else{
                 statusHtml = '<i class="fa fa-check-circle"></i>완료';
                 stautsClass = 'text-info'

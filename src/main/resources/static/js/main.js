@@ -62,7 +62,7 @@ $(document).ready(function() {
     if(myip=='180.70.55.111' || myip=='203.236.8.208'){
         APIIP = "http://localhost:8081/";
     }
-  //  APIIP = "http://localhost:8081/";
+    APIIP = "http://localhost:8081/";
 
     var callCount = 0;
     $("#directCallBtn").click(function () {

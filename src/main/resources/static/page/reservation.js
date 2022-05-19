@@ -73,13 +73,14 @@ $(document).ready(function() {
             end_addr: orderEndAddr,
             home_size: orderHomeSize,
             aply_date: getDate,
-            password: password1
+            password: password1,
+            status: 0
         };
 
         // 중복 체크
         var diffCheck = true;
         $.ajax({
-            url: APIIP+"oneshot/findReservationByNamePhone",
+            url: APIIP+"oneshot/findAllByPhoneAndMonthAgo",
             type: "POST",
             async: false,
             data: JSON.stringify(json),
@@ -87,14 +88,50 @@ $(document).ready(function() {
             contentType: "application/json; UTF-8;",
             success: function(data){
                 if(!isEmpty(data)){
-                    alert('동일한 정보의 견적 내역이 있습니다.');
+                    alert('1달 이내에 동일한 전화번호의 견적내역이 있습니다.');
                     diffCheck =  false;
                 }
             }
         });
         if(!diffCheck) return false;
-
         if (confirm('입력하신 내용으로 상담신청 하시겠습니까?')) {
+
+            if(getSvc.indexOf('청소') == -1){
+                //이사방에 전송
+                var newForm = $('<form></form>');
+                newForm.attr("method", "post");
+                newForm.attr("action", "http://isabang.co.kr/trans/request_trans.php?cmd=save");
+                newForm.attr("target", "_blank");
+                newForm.append($('<input/>', {type: 'hidden', name: 'ord_type', value: 't_1'}));
+                newForm.append($('<input/>', {type: 'hidden', name: 'quick', value: 'land_27a'}));
+                newForm.append($('<input/>', {type: 'hidden', name: 'charset', value: 'utf8'}));
+                newForm.append($('<input/>', {type: 'hidden', name: 'name', value: getName}));
+                newForm.append($('<input/>', {type: 'hidden', name: 'pcs', value: getPhone}));
+                newForm.append($('<input/>', {type: 'hidden', name: 'svc_date', value: getDate}));
+                newForm.append($('<input/>', {type: 'hidden', name: 'f_addr1', value: orderStartAddr}));
+                newForm.append($('<input/>', {type: 'hidden', name: 't_addr1', value: orderEndAddr}));
+                newForm.append($('<textarea/>', {type: 'hidden', name: 'req_etcs', text: "이사청소한방 테스트입니다."}));
+
+                var postData = newForm.serialize();
+                var formURL = newForm.attr("action");
+
+                $.ajax({
+                    url : formURL,
+                    type: "POST",
+                    crossDomain: true,
+                    data : postData,
+                    async: false,
+                    dataType : "json",
+                    success:function(data, textStatus, jqXHR){
+                        console.log('it did work');
+                        json.status = 3;
+                    },
+                    error: function(jqXHR, textStatus, errorThrown){
+                        console.log('it didnt work');
+                    }
+                });
+            }
+
             try {
                 $.ajax({
                     url: APIIP+"oneshot/saveReservation",
