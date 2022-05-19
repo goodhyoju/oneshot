@@ -110,11 +110,88 @@
         </div>
         <!-- reservation End -->
         <!--reservation check  start -->
-        <div class="container-fluid bg-white mb-5 wow fadeIn mt-5" data-wow-delay="0.1s" style="padding: 35px; display: none;" id="checkReservationDiv">
+        <div class="container-fluid bg-white mb-5 wow fadeIn mt-5" data-wow-delay="0.1s" style="display: none;" id="checkReservationDiv">
             <div class="container">
                 <div class="row g-2">
                     <div class="col-md-12">
-                        <div class="row g-2">
+                        <div class="row gy-4">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="bg-light rounded p-1">
+                                <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
+                                    <div class="icon me-3" style="width: 45px; height: 45px;"><i class="fa fa-check text-dark"></i></div>
+                                    <span class="fw-bold text-primary" style="margin-right: 2px; width: 70px;">서비스</span><span id="checkService"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="bg-light rounded p-1">
+                                <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
+                                    <div class="icon me-3" style="width: 45px; height: 45px;"><i class="fa fa-check text-dark"></i></div>
+                                    <span class="fw-bold text-primary" style="margin-right: 2px; width: 70px;">이름</span><span id="checkName"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="bg-light rounded p-1">
+                                <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
+                                    <div class="icon me-3" style="width: 45px; height: 45px;"><i class="fa fa-check text-dark"></i></div>
+                                    <span class="fw-bold text-primary" style="margin-right: 2px; width: 70px;">전화번호</span><span id="checkPhone"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="bg-light rounded p-1">
+                                <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
+                                    <div class="icon me-3" style="width: 45px; height: 45px;"><i class="fa fa-check text-dark"></i></div>
+                                    <span class="fw-bold text-primary" style="margin-right: 2px; width: 70px;">실거주지</span><span id="checkHomeAddr"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="bg-light rounded p-1">
+                                <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
+                                    <div class="icon me-3" style="width: 45px; height: 45px;"><i class="fa fa-check text-dark"></i></div>
+                                    <span class="fw-bold text-primary" style="margin-right: 2px; width: 70px;">이사출발지</span><span id="checkStartAddr"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="bg-light rounded p-1">
+                                <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
+                                    <div class="icon me-3" style="width: 45px; height: 45px;"><i class="fa fa-check text-dark"></i></div>
+                                    <span class="fw-bold text-primary" style="margin-right: 2px; width: 70px;">이사도착지</span><span id="checkEndAddr"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="bg-light rounded p-1">
+                                <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
+                                    <div class="icon me-3" style="width: 45px; height: 45px;"><i class="fa fa-check text-dark"></i></div>
+                                    <span class="fw-bold text-primary" style="margin-right: 2px; width: 70px;">아파트 평형</span><span id="checkHomesize"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="bg-light rounded p-1">
+                                <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
+                                    <div class="icon me-3" style="width: 45px; height: 45px;"><i class="fa fa-check text-dark"></i></div>
+                                    <span class="fw-bold text-primary" style="margin-right: 2px; width: 70px;">신청일자</span><span id="checkOrderDate"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="bg-light rounded p-1">
+                                <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
+                                    <div class="icon me-3" style="width: 45px; height: 45px;"><i class="fa fa-check text-dark"></i></div>
+                                    <span class="fw-bold text-primary" style="margin-right: 2px; width: 70px;">비밀번호</span><span id="checkPassword"></span>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <#--<div class="row g-2">
                             <div class="col-md-12">
                                 <div class="row g-2">
                                     <table class="table tab-content table-bordered table-hover">
@@ -138,7 +215,7 @@
                                     </table>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
