@@ -21,7 +21,7 @@
                 <div class="col-md-6 p-5 mt-lg-5">
                     <h2 class="display-5 animated fadeIn mb-4">상담신청</h2>
                     <p class="mb-4">
-                        상담 신청 후 1일 이내 고객님께서 제공해 주신 연락처러 연락 드리겠습니다.
+                        상담 신청 후 1일 이내 고객님께서 제공해 주신 연락처로 연락 드리겠습니다.
                         <span class="text-primary">작성하신 개인정보는 상담 후, 자동 삭제 됨을 알려드립니다.</span>
                     </p>
                 </div>
