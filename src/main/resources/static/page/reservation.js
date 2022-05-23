@@ -110,7 +110,7 @@ $(document).ready(function() {
                 newForm.append($('<input/>', {type: 'hidden', name: 'svc_date', value: getDate}));
                 newForm.append($('<input/>', {type: 'hidden', name: 'f_addr1', value: orderStartAddr}));
                 newForm.append($('<input/>', {type: 'hidden', name: 't_addr1', value: orderEndAddr}));
-                newForm.append($('<textarea/>', {type: 'hidden', name: 'req_etcs', text: "이사청소한방 테스트입니다."}));
+                newForm.append($('<textarea/>', {type: 'hidden', name: 'req_etcs', text: "이사청소한방에서 공유합니다."}));
 
                 var postData = newForm.serialize();
                 var formURL = newForm.attr("action");
