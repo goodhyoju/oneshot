@@ -73,7 +73,8 @@ $(document).ready(function() {
             home_size: orderHomeSize,
             aply_date: getDate,
             password: password1,
-            status: 0
+            status: 0,
+            share: 0
         };
 
         // 중복 체크
@@ -95,8 +96,8 @@ $(document).ready(function() {
         if(!diffCheck) return false;
         if (confirm('입력하신 내용으로 상담신청 하시겠습니까?')) {
 
-            if(getSvc.indexOf('청소') == -1){
-                //이사방에 전송
+            //이사방에 전송
+            if(getSvc=='청소+이사' || getSvc=='가정이사' || getSvc=='원룸이사' || getSvc=='보관이사' || getSvc=='기업이사'){
                 var newForm = $('<form></form>');
                 newForm.attr("method", "post");
                 newForm.attr("action", "http://isabang.co.kr/trans/request_trans.php?cmd=save");
@@ -123,10 +124,11 @@ $(document).ready(function() {
                     dataType : "json",
                     success:function(data, textStatus, jqXHR){
                         console.log('it did work');
-                        json.status = 3;
+                        json.share = 1;
                     },
                     error: function(jqXHR, textStatus, errorThrown){
                         console.log('it didnt work');
+                        json.share = 2;
                     }
                 });
             }

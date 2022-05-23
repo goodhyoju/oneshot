@@ -18,21 +18,10 @@
                     <div class="col-md-2">
                         <div id="datetimepicker2" class="form-bg-primary" style="border-radius: 30px;"></div>
                     </div>
-                    <div class="col-md-2">
-                        <iframe id="countIframe" src="" width="100%" height="200px" frameborder="0"></iframe>
+                    <div class="col-md-10">
+                        <iframe id="countIframe" src="" width="100%" height="180px" frameborder="0"></iframe>
                     </div>
-                    <div class="col-md-2">
-                        <iframe id="totalIframe" src="" width="100%" height="200px" frameborder="0"></iframe>
-                    </div>
-                    <div class="col-md-2">
-                        <iframe id="total0Iframe" src="" width="100%" height="200px" frameborder="0"></iframe>
-                    </div>
-                    <div class="col-md-2">
-                        <iframe id="total1Iframe" src="" width="100%" height="200px" frameborder="0"></iframe>
-                    </div>
-                    <div class="col-md-2">
-                        <iframe id="total2Iframe" src="" width="100%" height="200px" frameborder="0"></iframe>
-                    </div>
+
                 </div>
                 <div class="row g-2">
                     <ul class="nav nav-tabs mb-2" id="adminTab">
@@ -88,6 +77,7 @@
                                         <th>평수</th>
                                         <th>작성일</th>
                                         <th>상태</th>
+                                        <th>이사방</th>
                                         <th>확인자</th>
                                         <th>변경</th>
                                     </tr>

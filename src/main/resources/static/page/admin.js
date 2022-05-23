@@ -89,6 +89,7 @@ $(document).ready(function() {
             {"aaData": "apt_size", className: "alRight"  },
             {"aaData": "time", className: "alCenter"},
             {"aaData": "status", className: "alCenter" },
+            {"aaData": "share", className: "alCenter" },
             {"aaData": "consultant",width: "50px", className: "alCenter" },
             {"aaData": "control", className: "alCenter" }
         ],
@@ -98,7 +99,9 @@ $(document).ready(function() {
             var getIdx = aData[0];
             var getTime = aData[6];
             var getStatus = aData[7];
+            var getShare = aData[8];
             var statusHtml;
+            var shareHtml;
             var stautsClass;
             var controlHtml = [];
 
@@ -107,12 +110,17 @@ $(document).ready(function() {
             }else if(getStatus==1){
                 statusHtml = '<i class="fa fa-user-times"></i>부재';
                 stautsClass = 'text-warning'
-            }else if(getStatus==3){
-                statusHtml = '<i class="fa fa-bullhorn"></i>이사방완료';
-                stautsClass = 'text-primary'
             }else{
                 statusHtml = '<i class="fa fa-check-circle"></i>완료';
                 stautsClass = 'text-info'
+            }
+
+            if(getShare==0) {
+                shareHtml = '<label class="text-gray"><i class="fa fa-exclamation-triangle"></i>대상아님</label>';
+            }else if(getShare==1) {
+                shareHtml = '<label class="text-success"><i class="fa fa-bullhorn"></i>이사방완료</label>';
+            }else{
+                shareHtml = '<label class="text-danger"><i class="fa fa-times"></i>이사방실패</label>';
             }
 
             controlHtml.push('<div class="btn-group-sm">');
@@ -124,7 +132,8 @@ $(document).ready(function() {
 
             $("td:eq(6)", nRow).html(moment(getTime).format('YYYY-MM-DD HH:mm'));
             $("td:eq(7)", nRow).html(statusHtml);
-            $("td:eq(9)", nRow).html(controlHtml.join(''));
+            $("td:eq(8)", nRow).html(shareHtml);
+            $("td:eq(10)", nRow).html(controlHtml.join(''));
             $(nRow).addClass(stautsClass);
         }
     });
@@ -799,12 +808,8 @@ function createDashboard(){
     var unixBegin = moment(begin).unix()*1000;
     var unixEnd = moment(end).unix()*1000;
 
-    var createUrl = "http://49.50.174.83:3000/d/ObeQ3cunz/24oneshot?orgId=1&refresh=1m&kiosk&from="+unixBegin+"&to="+unixEnd;
+    var createUrl = "http://49.50.174.83:3000/d/ObeQ3cunz/24oneshot?orgId=1&kiosk&refresh=1m&from="+unixBegin+"&to="+unixEnd;
 
 
-    $("#countIframe").attr('src',createUrl+"&viewPanel=2");
-    $("#totalIframe").attr('src',createUrl+"&viewPanel=6");
-    $("#total0Iframe").attr('src',createUrl+"&viewPanel=3");
-    $("#total1Iframe").attr('src',createUrl+"&viewPanel=4");
-    $("#total2Iframe").attr('src',createUrl+"&viewPanel=5");
+    $("#countIframe").attr('src',createUrl);
 }
