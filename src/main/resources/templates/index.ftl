@@ -235,14 +235,14 @@
                     <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
                         <div class="row g-5 align-items-center">
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                                <img class="img-fluid rounded w-100" src="img/call-to-action.jpg" alt="">
+                                <img class="img-fluid rounded w-100" src="img/call-to-action.jpeg" alt="">
                             </div>
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                                 <div class="mb-4">
                                     <h2 class="mb-3">깨끗함을 지향하는 고객중심의 이사/청소를 약속드립니다.</h2>
                                     <p>안녕하십니까,<br/>
                                         이사청소한방를 방문해 주신 여러분께 진심으로 감사드립니다.
-                                        차별화된 기술과 청소매니아만의 노하우로 아무로 작은 일이라도 고객님이 만족할때까지 내 가족의 집을 다루듯이 최선을 다해 성심성의껏 작업에 임할 것을 약속드립니다.
+                                        차별화된 기술과 청소매니아만의 노하우로 아무리 작은 일이라도 고객님이 만족할때까지 내 가족의 집을 다루듯이 최선을 다해 성심성의껏 작업에 임할 것을 약속드립니다.
                                         아름답고 청결한 환경을 위해 이사청소한방은 매일 끊임없이 연구하고 노력합니다.
                                         문의사항이 있으시면 언제든지 주저말고 연락바랍니다. 감사합니다.
                                     </p>

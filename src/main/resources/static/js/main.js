@@ -95,7 +95,7 @@ $(document).ready(function() {
         }else if(getHref=='admin' && getPageName==getHref){
             $(this).addClass('active');
         }else if(getPageName==getHref){
-            $(this).parent().siblings('.nav-link').addClass('active');
+            $(this).parent().prev().addClass('active');
         }
     });
 

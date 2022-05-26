@@ -506,3 +506,7 @@ input[type="checkbox"] {
 .text-gray{
     color: #b4aeae;
 }
+
+a{
+    color: black !important;
+}

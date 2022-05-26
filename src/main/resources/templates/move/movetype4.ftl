@@ -45,13 +45,13 @@
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-2">
+                        <a class="cat-item d-block bg-light text-center rounded p-1" href="">
+                            <div class="rounded p-2" style="height: 300px;">
                                 <div class="icon mb-3">
                                     <img class="img-fluid" src="img/icon-plan.png" alt="Icon">
                                 </div>
                                 <h6>이사 계획 수립</h6>
-                                <span style="text-align: left;font-size: 13px;">
+                                <span style="text-align: left;font-size: 16px;">
                                     <p style="margin-bottom: 0px;"><i class="fa fa-check text-primary me-3"></i>부서별 세밀한 이전 계획 수립</p>
                                     <p style="margin-bottom: 0px;"><i class="fa fa-check text-primary me-3"></i>출발지와 도착지의 환경 및 조건 검토</p>
                                     <p style="margin-bottom: 0px;"><i class="fa fa-check text-primary me-3"></i>이전 부서의 물품 파악 및 예상시간 검토</p>
@@ -61,13 +61,13 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-2">
+                        <a class="cat-item d-block bg-light text-center rounded p-1" href="">
+                            <div class="rounded p-2" style="height: 300px;">
                                 <div class="icon mb-3">
                                     <img class="img-fluid" src="img/icon-spackaging.png" alt="Icon">
                                 </div>
                                 <h6>특수포장</h6>
-                                <span style="text-align: left;font-size: 13px;">
+                                <span style="text-align: left;font-size: 16px;">
                                     <p style="margin-bottom: 0px;"><i class="fa fa-check text-primary me-3"></i>부서별 물품 구분 및 식별 라벨 부착</p>
                                     <p style="margin-bottom: 0px;"><i class="fa fa-check text-primary me-3"></i>PC 등 사무집기 및 장비 특수포장</p>
                                     <p style="margin-bottom: 0px;"><i class="fa fa-check text-primary me-3"></i>주요 서류 및 문서 관리자 결재 후 운송</p>
@@ -77,13 +77,13 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-2">
+                        <a class="cat-item d-block bg-light text-center rounded p-1" href="">
+                            <div class="rounded p-2" style="height: 300px;">
                                 <div class="icon mb-3">
                                     <img class="img-fluid" src="img/icon-move.png" alt="Icon">
                                 </div>
                                 <h6>운송</h6>
-                                <span style="text-align: left;font-size: 13px;">
+                                <span style="text-align: left;font-size: 16px;">
                                     <p style="margin-bottom: 0px;"><i class="fa fa-check text-primary me-3"></i>부서별 책상 및 집기 구분하여 운송</p>
                                     <p style="margin-bottom: 0px;"><i class="fa fa-check text-primary me-3"></i>안전과 기업 업무공백 최소화하기 위한 층별 / 부서별 물품 상차 및 하차</p>
                                 </span>
@@ -91,13 +91,13 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-2">
+                        <a class="cat-item d-block bg-light text-center rounded p-1" href="">
+                            <div class="rounded p-2" style="height: 300px;">
                                 <div class="icon mb-3">
                                     <img class="img-fluid" src="img/icon-clean.png" alt="Icon">
                                 </div>
                                 <h6>배치 및 정리</h6>
-                                <span style="text-align: left;font-size: 13px;">
+                                <span style="text-align: left;font-size: 16px;">
                                     <p style="margin-bottom: 0px;"><i class="fa fa-check text-primary me-3"></i>이전계획에 따른 부서별 신속한 배치 및 정리</p>
                                     <p style="margin-bottom: 0px;"><i class="fa fa-check text-primary me-3"></i>주요문서 부서 상급자 확인 하 인수인계</p>
                                     <p style="margin-bottom: 0px;"><i class="fa fa-check text-primary me-3"></i>신속하고 정확한 동선을 고려하 배치 및 정리</p>

@@ -46,9 +46,9 @@
                     </p>
                 </div>
                 <div class="row g-4">
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-2">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s" >
+                        <a class="cat-item d-block bg-light text-center rounded p-1" href="" >
+                            <div class="rounded p-2" style="height: 400px;">
                                 <div class="icon mb-3">
                                     <img class="img-fluid" src="img/icon-packing.png" alt="Icon">
                                 </div>
@@ -64,8 +64,8 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-2">
+                        <a class="cat-item d-block bg-light text-center rounded p-1" href="">
+                            <div class="rounded p-2"  style="height: 400px;">
                                 <div class="icon mb-3">
                                     <img class="img-fluid" src="img/icon-move.png" alt="Icon">
                                 </div>
@@ -79,8 +79,8 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-2">
+                        <a class="cat-item d-block bg-light text-center rounded p-1" href="">
+                            <div class="rounded p-2"  style="height: 400px;">
                                 <div class="icon mb-3">
                                     <img class="img-fluid" src="img/icon-clean.png" alt="Icon">
                                 </div>
@@ -97,8 +97,8 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-2">
+                        <a class="cat-item d-block bg-light text-center rounded p-1" href="">
+                            <div class="rounded p-2"  style="height: 400px;">
                                 <div class="icon mb-3">
                                     <img class="img-fluid" src="img/icon-finish.png" alt="Icon">
                                 </div>

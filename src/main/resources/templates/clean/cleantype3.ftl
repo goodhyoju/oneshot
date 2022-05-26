@@ -52,7 +52,7 @@
                     <div class="col-12">
                         <div class="row gy-4">
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="bg-light rounded p-3">
+                                <div class="bg-light rounded p-1">
                                     <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
                                             <i class="fa fa-arrow-right text-dark"></i>
@@ -62,7 +62,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                                <div class="bg-light rounded p-3">
+                                <div class="bg-light rounded p-1">
                                     <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
                                             <i class="fa fa-arrow-right text-dark"></i>
@@ -72,7 +72,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="bg-light rounded p-3">
+                                <div class="bg-light rounded p-1">
                                     <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
                                             <i class="fa fa-arrow-right text-dark"></i>
@@ -82,7 +82,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="bg-light rounded p-3">
+                                <div class="bg-light rounded p-1">
                                     <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
                                             <i class="fa fa-arrow-right text-dark"></i>
@@ -92,7 +92,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="bg-light rounded p-3">
+                                <div class="bg-light rounded p-1">
                                     <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
                                             <i class="fa fa-arrow-right text-dark"></i>
@@ -102,7 +102,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="bg-light rounded p-3">
+                                <div class="bg-light rounded p-1">
                                     <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
                                             <i class="fa fa-arrow-right text-dark"></i>
@@ -112,7 +112,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="bg-light rounded p-3">
+                                <div class="bg-light rounded p-1">
                                     <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
                                             <i class="fa fa-arrow-right text-dark"></i>
@@ -122,7 +122,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="bg-light rounded p-3">
+                                <div class="bg-light rounded p-1">
                                     <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
                                             <i class="fa fa-arrow-right text-dark"></i>
@@ -132,7 +132,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="bg-light rounded p-3">
+                                <div class="bg-light rounded p-1">
                                     <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
                                             <i class="fa fa-arrow-right text-dark"></i>
@@ -142,7 +142,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="bg-light rounded p-3">
+                                <div class="bg-light rounded p-1">
                                     <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
                                             <i class="fa fa-arrow-right text-dark"></i>
@@ -152,7 +152,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="bg-light rounded p-3">
+                                <div class="bg-light rounded p-1">
                                     <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
                                             <i class="fa fa-arrow-right text-dark"></i>
@@ -162,7 +162,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="bg-light rounded p-3">
+                                <div class="bg-light rounded p-1">
                                     <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
                                             <i class="fa fa-arrow-right text-dark"></i>
@@ -172,7 +172,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="bg-light rounded p-3">
+                                <div class="bg-light rounded p-1">
                                     <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
                                             <i class="fa fa-arrow-right text-dark"></i>
@@ -182,7 +182,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="bg-light rounded p-3">
+                                <div class="bg-light rounded p-1">
                                     <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
                                             <i class="fa fa-arrow-right text-dark"></i>
@@ -192,7 +192,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="bg-light rounded p-3">
+                                <div class="bg-light rounded p-1">
                                     <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
                                             <i class="fa fa-arrow-right text-dark"></i>
@@ -202,7 +202,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="bg-light rounded p-3">
+                                <div class="bg-light rounded p-1">
                                     <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
                                             <i class="fa fa-arrow-right text-dark"></i>
@@ -212,7 +212,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="bg-light rounded p-3">
+                                <div class="bg-light rounded p-1">
                                     <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
                                             <i class="fa fa-arrow-right text-dark"></i>
@@ -222,7 +222,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="bg-light rounded p-3">
+                                <div class="bg-light rounded p-1">
                                     <div class="d-flex align-items-center bg-white rounded p-1" style="border: 1px solid rgba(0, 185, 142, .3);font-size: 15px;">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
                                             <i class="fa fa-arrow-right text-dark"></i>
