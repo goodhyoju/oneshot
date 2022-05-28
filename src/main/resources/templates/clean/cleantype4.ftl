@@ -20,9 +20,10 @@
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <div class="col-md-6 p-5 mt-lg-5">
                     <h1 class="display-5 animated fadeIn mb-4">부분청소</h1>
-                    <p class="mb-4">
+                    <p class="">
                         고객님께서 지정해 주시는 원하는 공간만 <span class="text-primary">경제적으로 서비스</span> 받아보세요.
                     </p>
+                    <p class="text-primary">우리집 곰팡이, 부분 요염도 집중케어</p>
                 </div>
                 <div class="col-md-6 animated fadeIn">
                     <img class="img-fluid" src="img/cleantype4_l.png" alt="">
@@ -40,7 +41,7 @@
         <!-- Contact Start -->
         <div class="container-xxl py-5">
             <div class="container">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="">
+                <div class="text-center m-lg-5 wow fadeInUp" data-wow-delay="0.1s" style="">
                     <h2 class="mb-3">작업내용</h2>
                     <p>
                         부분 청소 서비스는 건물과 고객의 상황에 따라 이용하게 되는 유용한 서비스입니다.

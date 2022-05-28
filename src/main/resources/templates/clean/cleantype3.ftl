@@ -177,7 +177,7 @@
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
                                             <i class="fa fa-arrow-right text-dark"></i>
                                         </div>
-                                        <span>TV, 그으름 등으로 찌든 도배 얼룩제거(추가비용)</span>
+                                        <span>TV, 그으름 등으로 찌든 도배 얼룩제거</span>
                                     </div>
                                 </div>
                             </div>
@@ -250,10 +250,7 @@
                     </div>
                     <div class="col-lg-9 wow fadeIn" data-wow-delay="0.5s">
                         <h2 class="mb-4">참고사항</h2>
-                        <p><i class="fa fa-check text-primary me-3"></i>가전 내부별도. 내부는추가조율.</p>
-                        <p><i class="fa fa-check text-primary me-3"></i>싱크대안 그릇있으면 외부만. 없으면 내부 포함</p>
-                        <p><i class="fa fa-check text-primary me-3"></i>수납장, 신발장도 내부물건있으면 외부만 빼주거나 없으면 내부 포함</p>
-                        <p><i class="fa fa-check text-primary me-3"></i>건물의 상황에 맞추어 전문청소지사/가맹/작업자들이 자동으로 하자없는 청소를 마무리 지으며, 고객이 특별히 신경 쓰이는 사항은 말씀하여 주시면 원하시는 대로 처리하여 드립니다．</p>
+                        <p><i class="fa fa-check text-primary me-3"></i>내부 적재 물건 정리정돈 /세척은 추가견적 비용으로 더 다양한 맞춤형 거주청소가 가능합니다.</p>
                     </div>
                 </div>
             </div>

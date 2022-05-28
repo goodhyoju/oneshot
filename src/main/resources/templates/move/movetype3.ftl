@@ -51,7 +51,7 @@
                                     <img class="img-fluid" src="img/icon-move.png" alt="Icon">
                                 </div>
                                 <h6>이사</h6>
-                                <span style="text-align: left;font-size: 13px;">
+                                <span style="text-align: left;font-size: 16px;">
                                     <p style="margin-bottom: 0px;"><i class="fa fa-check text-primary me-3"></i>이사청소한방의 전문적인 이사서비스를 통하여 체계적이고 안전한 이삿짐 반출</p>
                                 </span>
                             </div>

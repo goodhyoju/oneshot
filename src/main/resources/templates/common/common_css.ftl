@@ -3,7 +3,9 @@
     <title>이사청소 한방</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta property="og:title" content="이사청소한방">
+    <meta property="og:description" content="이사청소한방, 이사서비스, 포장이사, 청소서비스, 친환경청소, 입주청소 무료견적 상담, 이사청소를 한번에 해결.">
+    <meta content="이사청소한방, 이사서비스, 포장이사, 청소서비스, 친환경청소, 입주청소 무료견적 상담, 이사청소를 한번에 해결." name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
