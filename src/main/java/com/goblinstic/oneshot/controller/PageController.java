@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
@@ -24,6 +25,12 @@ import java.io.UnsupportedEncodingException;
 public class PageController {
     @Autowired
     private SystemUtils systemUtils;
+
+    @RequestMapping(value = "/robots.txt")
+    @ResponseBody
+    public String robots() {
+        return "User-agent: Yeti\nAllow: /\n";
+    }
 
     @RequestMapping(value = "error", method = {RequestMethod.POST,RequestMethod.GET})
     public ModelAndView error() {
