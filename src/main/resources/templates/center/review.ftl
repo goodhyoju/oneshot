@@ -40,7 +40,7 @@
                 <div class="row g-2">
                     <div class="col-md-12">
                         <!-- table start -->
-                        <table id="reviewTable" class="ui celled table hover display nowrap" style="width:100%">
+                        <table id="reviewTable" class="ui celled table hover" style="width:100%">
                             <thead>
                             <tr>
                                 <th>ID</th>
